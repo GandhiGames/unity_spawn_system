@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_round_manager_1_1_last_round" kind="class" language="C#" prot="public">
+    <compoundname>RoundManager::LastRound</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_round_manager_1_1_last_round_1a2fbe34333dff170c7a9a35d5679aee28" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.LastRound.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/_Templates/Round Events/LastRound.cs" line="14" column="1" bodyfile="Round System/Scripts/_Round System/Event System/_Templates/Round Events/LastRound.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_last_round_1af610578f75d6bb0ae8404374d9dfe9b3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.LastRound.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/_Templates/Round Events/LastRound.cs" line="19" column="1" bodyfile="Round System/Scripts/_Round System/Event System/_Templates/Round Events/LastRound.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_last_round_1a71c32650ce7a5f668693f4251b995f0b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.LastRound.OnLastRound</definition>
+        <argsstring>(LastRoundEvent e)</argsstring>
+        <name>OnLastRound</name>
+        <param>
+          <type><ref refid="class_round_manager_1_1_events_1_1_last_round_event" kindref="compound">LastRoundEvent</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>React to <ref refid="class_round_manager_1_1_events_1_1_last_round_event" kindref="compound">LastRoundEvent</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Event.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/_Templates/Round Events/LastRound.cs" line="28" column="1" bodyfile="Round System/Scripts/_Round System/Event System/_Templates/Round Events/LastRound.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Template class. Use this as a template to react to a <ref refid="class_round_manager_1_1_events_1_1_last_round_event" kindref="compound">LastRoundEvent</ref>. This event is raised at the beginning of the last round. Place your logic in the #OnLastRound function. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="129">
+        <label>RoundManager.LastRound</label>
+        <link refid="class_round_manager_1_1_last_round"/>
+        <childnode refid="130" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="130">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="131">
+        <label>RoundManager.LastRound</label>
+        <link refid="class_round_manager_1_1_last_round"/>
+        <childnode refid="132" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="132">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Round System/Scripts/_Round System/Event System/_Templates/Round Events/LastRound.cs" line="13" column="1" bodyfile="Round System/Scripts/_Round System/Event System/_Templates/Round Events/LastRound.cs" bodystart="12" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_round_manager_1_1_last_round_1af610578f75d6bb0ae8404374d9dfe9b3" prot="private" virt="non-virtual"><scope>RoundManager::LastRound</scope><name>OnDisable</name></member>
+      <member refid="class_round_manager_1_1_last_round_1a2fbe34333dff170c7a9a35d5679aee28" prot="private" virt="non-virtual"><scope>RoundManager::LastRound</scope><name>OnEnable</name></member>
+      <member refid="class_round_manager_1_1_last_round_1a71c32650ce7a5f668693f4251b995f0b" prot="private" virt="non-virtual"><scope>RoundManager::LastRound</scope><name>OnLastRound</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

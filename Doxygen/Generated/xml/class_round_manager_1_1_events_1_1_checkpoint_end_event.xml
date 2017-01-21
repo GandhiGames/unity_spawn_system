@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_round_manager_1_1_events_1_1_checkpoint_end_event" kind="class" language="C#" prot="public">
+    <compoundname>RoundManager::Events::CheckpointEndEvent</compoundname>
+    <basecompoundref refid="class_round_manager_1_1_events_1_1_round_event" prot="public" virt="non-virtual">RoundManager.Events.RoundEvent</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_events_1_1_checkpoint_end_event_1add9e6cc30e75810b7daa27085bba2469" prot="private" static="no" mutable="no">
+        <type><ref refid="class_round_manager_1_1_round" kindref="compound">Round</ref></type>
+        <definition>Round RoundManager.Events.CheckpointEndEvent._currentRound</definition>
+        <argsstring></argsstring>
+        <name>_currentRound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/Individual Events/Checkpoint Events/CheckpointEndEvent.cs" line="11" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Checkpoint Events/CheckpointEndEvent.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_events_1_1_checkpoint_end_event_1aa498e489d2fbbb4182d0d133fee3feff" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RoundManager.Events.CheckpointEndEvent._hasNextCheckpoint</definition>
+        <argsstring></argsstring>
+        <name>_hasNextCheckpoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/Individual Events/Checkpoint Events/CheckpointEndEvent.cs" line="18" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Checkpoint Events/CheckpointEndEvent.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_round_manager_1_1_events_1_1_checkpoint_end_event_1a2a39644ca55e8a76302f27cffc848366" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_round_manager_1_1_round" kindref="compound">Round</ref></type>
+        <definition>Round RoundManager.Events.CheckpointEndEvent.CurrentRound</definition>
+        <argsstring></argsstring>
+        <name>CurrentRound</name>
+        <briefdescription>
+<para>Gets the current round that raised this event. </para>        </briefdescription>
+        <detaileddescription>
+<para>The current round.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/Individual Events/Checkpoint Events/CheckpointEndEvent.cs" line="16" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Checkpoint Events/CheckpointEndEvent.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_round_manager_1_1_events_1_1_checkpoint_end_event_1a882ecd882a8c5c5824450d29c4d4e43f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool RoundManager.Events.CheckpointEndEvent.HasNextCheckpoint</definition>
+        <argsstring></argsstring>
+        <name>HasNextCheckpoint</name>
+        <briefdescription>
+<para>A value indicating whether there is another checkpoint after this one. </para>        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>true</computeroutput> if this instance has next checkpoint; otherwise, <computeroutput>false</computeroutput>.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/Individual Events/Checkpoint Events/CheckpointEndEvent.cs" line="23" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Checkpoint Events/CheckpointEndEvent.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_round_manager_1_1_events_1_1_checkpoint_end_event_1aa7b940607139e746de0a71866c6ff4af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RoundManager.Events.CheckpointEndEvent.CheckpointEndEvent</definition>
+        <argsstring>(Round currentRound, bool hasNextCheckpoint)</argsstring>
+        <name>CheckpointEndEvent</name>
+        <param>
+          <type><ref refid="class_round_manager_1_1_round" kindref="compound">Round</ref></type>
+          <declname>currentRound</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>hasNextCheckpoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/Individual Events/Checkpoint Events/CheckpointEndEvent.cs" line="25" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Checkpoint Events/CheckpointEndEvent.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Raised when the a checkpoint ends. See CheckPointEnd template for an example of how to react to the event. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="59">
+        <label>RoundManager.Events.CheckpointEndEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_checkpoint_end_event"/>
+        <childnode refid="60" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>RoundEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_round_event"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="61">
+        <label>RoundManager.Events.CheckpointEndEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_checkpoint_end_event"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>RoundEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_round_event"/>
+      </node>
+    </collaborationgraph>
+    <location file="Round System/Scripts/_Round System/Event System/Individual Events/Checkpoint Events/CheckpointEndEvent.cs" line="10" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Checkpoint Events/CheckpointEndEvent.cs" bodystart="9" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_round_manager_1_1_events_1_1_checkpoint_end_event_1add9e6cc30e75810b7daa27085bba2469" prot="private" virt="non-virtual"><scope>RoundManager::Events::CheckpointEndEvent</scope><name>_currentRound</name></member>
+      <member refid="class_round_manager_1_1_events_1_1_checkpoint_end_event_1aa498e489d2fbbb4182d0d133fee3feff" prot="private" virt="non-virtual"><scope>RoundManager::Events::CheckpointEndEvent</scope><name>_hasNextCheckpoint</name></member>
+      <member refid="class_round_manager_1_1_events_1_1_checkpoint_end_event_1aa7b940607139e746de0a71866c6ff4af" prot="public" virt="non-virtual"><scope>RoundManager::Events::CheckpointEndEvent</scope><name>CheckpointEndEvent</name></member>
+      <member refid="class_round_manager_1_1_events_1_1_checkpoint_end_event_1a2a39644ca55e8a76302f27cffc848366" prot="public" virt="non-virtual"><scope>RoundManager::Events::CheckpointEndEvent</scope><name>CurrentRound</name></member>
+      <member refid="class_round_manager_1_1_events_1_1_checkpoint_end_event_1a882ecd882a8c5c5824450d29c4d4e43f" prot="public" virt="non-virtual"><scope>RoundManager::Events::CheckpointEndEvent</scope><name>HasNextCheckpoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="dir_84cdbd67a13bb935dda250ebb7f4d12f" kind="dir">
+    <compoundname>Round System/Scripts/_Round System/Event System</compoundname>
+    <innerdir refid="dir_a0b11c0f7db32b5561c089f6340eaa03">Round System/Scripts/_Round System/Event System/_Templates</innerdir>
+    <innerdir refid="dir_5dca53da95aecabf7911449197c9132e">Round System/Scripts/_Round System/Event System/Individual Events</innerdir>
+    <innerfile refid="_round_event_8cs">RoundEvent.cs</innerfile>
+    <innerfile refid="_round_events_8cs">RoundEvents.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Round System/Scripts/_Round System/Event System/"/>
+  </compounddef>
+</doxygen>

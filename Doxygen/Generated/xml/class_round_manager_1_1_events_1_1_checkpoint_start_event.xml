@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_round_manager_1_1_events_1_1_checkpoint_start_event" kind="class" language="C#" prot="public">
+    <compoundname>RoundManager::Events::CheckpointStartEvent</compoundname>
+    <basecompoundref refid="class_round_manager_1_1_events_1_1_round_event" prot="public" virt="non-virtual">RoundManager.Events.RoundEvent</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_events_1_1_checkpoint_start_event_1a0d369cf29292170da7bd88ad19c26307" prot="private" static="no" mutable="no">
+        <type><ref refid="class_round_manager_1_1_round" kindref="compound">Round</ref></type>
+        <definition>Round RoundManager.Events.CheckpointStartEvent._currentRound</definition>
+        <argsstring></argsstring>
+        <name>_currentRound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/Individual Events/Checkpoint Events/ChecpointStartEvent.cs" line="11" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Checkpoint Events/ChecpointStartEvent.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_round_manager_1_1_events_1_1_checkpoint_start_event_1aef6965be346eb340a052b5cea470a041" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_round_manager_1_1_round" kindref="compound">Round</ref></type>
+        <definition>Round RoundManager.Events.CheckpointStartEvent.CurrentRound</definition>
+        <argsstring></argsstring>
+        <name>CurrentRound</name>
+        <briefdescription>
+<para>Gets the current round that raised this event. </para>        </briefdescription>
+        <detaileddescription>
+<para>The current round.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/Individual Events/Checkpoint Events/ChecpointStartEvent.cs" line="16" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Checkpoint Events/ChecpointStartEvent.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_round_manager_1_1_events_1_1_checkpoint_start_event_1a5e4f62f93c1f4add24bd2fd6fbd554ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RoundManager.Events.CheckpointStartEvent.CheckpointStartEvent</definition>
+        <argsstring>(Round currentRound)</argsstring>
+        <name>CheckpointStartEvent</name>
+        <param>
+          <type><ref refid="class_round_manager_1_1_round" kindref="compound">Round</ref></type>
+          <declname>currentRound</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/Individual Events/Checkpoint Events/ChecpointStartEvent.cs" line="18" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Checkpoint Events/ChecpointStartEvent.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Raised when the a checkpoint starts. See CheckPointStart template for an example of how to react to the event. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="67">
+        <label>RoundManager.Events.CheckpointStartEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_checkpoint_start_event"/>
+        <childnode refid="68" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>RoundEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_round_event"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="69">
+        <label>RoundManager.Events.CheckpointStartEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_checkpoint_start_event"/>
+        <childnode refid="70" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>RoundEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_round_event"/>
+      </node>
+    </collaborationgraph>
+    <location file="Round System/Scripts/_Round System/Event System/Individual Events/Checkpoint Events/ChecpointStartEvent.cs" line="10" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Checkpoint Events/ChecpointStartEvent.cs" bodystart="9" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_round_manager_1_1_events_1_1_checkpoint_start_event_1a0d369cf29292170da7bd88ad19c26307" prot="private" virt="non-virtual"><scope>RoundManager::Events::CheckpointStartEvent</scope><name>_currentRound</name></member>
+      <member refid="class_round_manager_1_1_events_1_1_checkpoint_start_event_1a5e4f62f93c1f4add24bd2fd6fbd554ea" prot="public" virt="non-virtual"><scope>RoundManager::Events::CheckpointStartEvent</scope><name>CheckpointStartEvent</name></member>
+      <member refid="class_round_manager_1_1_events_1_1_checkpoint_start_event_1aef6965be346eb340a052b5cea470a041" prot="public" virt="non-virtual"><scope>RoundManager::Events::CheckpointStartEvent</scope><name>CurrentRound</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

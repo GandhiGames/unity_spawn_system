@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 62d6a080f922645b98d54993b0c495dc
+labels:
+- Event
+- EventSystem
+- Customisable
+- Type
+- TypeSafe
+timeCreated: 1436948187
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

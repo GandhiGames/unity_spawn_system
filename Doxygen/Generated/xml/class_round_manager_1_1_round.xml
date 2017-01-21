@@ -1,0 +1,723 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_round_manager_1_1_round" kind="class" language="C#" prot="public">
+    <compoundname>RoundManager::Round</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_round_manager_1_1_round_1aa29bc68e0391d65a999897ea1e6a20ae" prot="public" static="no">
+        <name>ProgressType</name>
+        <enumvalue id="class_round_manager_1_1_round_1aa29bc68e0391d65a999897ea1e6a20aea90e8c3c2968c83e5adaad0a25f1b88ad" prot="public">
+          <name>TimeUp</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_round_manager_1_1_round_1aa29bc68e0391d65a999897ea1e6a20aeaaad1018b5f4362c941e805b04a004038" prot="public">
+          <name>WhenTriggered</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_round_manager_1_1_round_1aa29bc68e0391d65a999897ea1e6a20aeacc512bb6f6940607e3b2371940a52e3d" prot="public">
+          <name>WaitForTrigger</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="160" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="159" bodyend="164"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_round_1ae4903232675603b581af91af5e42ad58" prot="public" static="no" mutable="no">
+        <type><ref refid="class_round_manager_1_1_round_checkpoint" kindref="compound">RoundCheckpoint</ref>[]</type>
+        <definition>RoundCheckpoint [] RoundManager.Round.Checkpoints</definition>
+        <argsstring></argsstring>
+        <name>Checkpoints</name>
+        <briefdescription>
+<para>Array of checkpoints owned by this round. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="18" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_round_1a711e1825e6d269ab0308a79cf25ee8d1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RoundManager.Round.HasPreperationTime</definition>
+        <argsstring></argsstring>
+        <name>HasPreperationTime</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>A preperation time to allow for the player to prepare for the upcoming round. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="40" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_round_1a5a70ef04a60e0aeddaf1cd1898a419e5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RoundManager.Round.PreperationTime</definition>
+        <argsstring></argsstring>
+        <name>PreperationTime</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+<para>Preperation time in seconds. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="45" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_round_1a9c32b59e081626bb406a85caeb2a3cf4" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RoundManager.Round.SpawnObjectsDuringPreperaionTime</definition>
+        <argsstring></argsstring>
+        <name>SpawnObjectsDuringPreperaionTime</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>Can spawn objects during preperaion time. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="50" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_round_1ae42e5ac4d526b13e552f1b24e5a83a19" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RoundManager.Round.NumberOfObjectsToSpawn</definition>
+        <argsstring></argsstring>
+        <name>NumberOfObjectsToSpawn</name>
+        <briefdescription>
+<para>The number of objects to spawn. This number will be spawned as long as <ref refid="class_round_manager_1_1_round_1a1e58477543ce08f5fd2a436ebadbcc7c" kindref="member">PreperationTimeObjects</ref> is geater than one. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="56" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_round_1a1e58477543ce08f5fd2a436ebadbcc7c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_round_object_spawner" kindref="compound">RoundObjectSpawner</ref>[]</type>
+        <definition>RoundObjectSpawner [] RoundManager.Round.PreperationTimeObjects</definition>
+        <argsstring></argsstring>
+        <name>PreperationTimeObjects</name>
+        <briefdescription>
+<para>The preperation time objects. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="61" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_round_1a037f0609ebfdf5eb6c72be5c9678761d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RoundManager.Round.DestroyPreviousRoundEnemiesOnRoundStart</definition>
+        <argsstring></argsstring>
+        <name>DestroyPreviousRoundEnemiesOnRoundStart</name>
+        <briefdescription>
+<para>If true, DestroyCurrentEnemiesRequestEvent is raised on round start. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="66" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_round_1a29453a323d20cb447104b57007feba6b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RoundManager.Round.DestroyEnemiesOnRoundEnd</definition>
+        <argsstring></argsstring>
+        <name>DestroyEnemiesOnRoundEnd</name>
+        <briefdescription>
+<para>If true, DestroyCurrentEnemiesRequestEvent is raised on round end. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="71" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_round_1a3e8205a74f196546906314f802f41127" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RoundManager.Round.RoundHasBoss</definition>
+        <argsstring></argsstring>
+        <name>RoundHasBoss</name>
+        <briefdescription>
+<para>Each round can have a boss. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="87" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_round_1aebfe780553ec7d96b138eaf9e703629b" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject RoundManager.Round.RoundBossPrefab</definition>
+        <argsstring></argsstring>
+        <name>RoundBossPrefab</name>
+        <briefdescription>
+<para>The round boss prefab. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="92" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_round_1a468cf0f58dd938b9c1f327f55313e71a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RoundManager.Round.BossCountdown</definition>
+        <argsstring></argsstring>
+        <name>BossCountdown</name>
+        <briefdescription>
+<para>Countdown until boss is spawned. Countdown begins at round end. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="97" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_round_1acf766221ab1b301a493e1702acb5ef6a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RoundManager.Round.DestroyOtherEnemiesWhenBossCountdownBegins</definition>
+        <argsstring></argsstring>
+        <name>DestroyOtherEnemiesWhenBossCountdownBegins</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>If true, DestroyCurrentEnemiesRequestEvent is raised when countdown to spawn boss begins. This is raised even if <ref refid="class_round_manager_1_1_round_1a468cf0f58dd938b9c1f327f55313e71a" kindref="member">BossCountdown</ref> is 0. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="103" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_round_1a3efd4fcc0924c9b469d2cc96f1f418cd" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RoundManager.Round.DestroyOtherEnemiesWhenBossSpawns</definition>
+        <argsstring></argsstring>
+        <name>DestroyOtherEnemiesWhenBossSpawns</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>If true, DestroyCurrentEnemiesRequestEvent is raised when boss is spawned. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="108" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_round_1aabbe6a40e81051469e5ca8eefd18303f" prot="public" static="no" mutable="no">
+        <type>ProgressType</type>
+        <definition>ProgressType RoundManager.Round.RoundProgressType</definition>
+        <argsstring></argsstring>
+        <name>RoundProgressType</name>
+        <initializer>= ProgressType.TimeUp</initializer>
+        <briefdescription>
+<para>Defines how the round progresses to the next round. <linebreak/>
+<ref refid="" kindref="compound">TimeUp </ref>: round will end when the combined checkpoint time is up. <linebreak/>
+<ref refid="" kindref="compound">WhenTriggered </ref>: round will end immediately when <ref refid="class_round_manager_1_1_trigger_round_end" kindref="compound">RoundManager::TriggerRoundEnd</ref> is called. <linebreak/>
+<ref refid="" kindref="compound">WaitForTrigger </ref>: round will end when <ref refid="class_round_manager_1_1_trigger_round_end" kindref="compound">RoundManager::TriggerRoundEnd</ref> is called and the combined checkpoint time is up. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="171" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_round_1ae5ae122846cd8ff3b3f6280cf7411752" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RoundManager.Round._currentCheckpoint</definition>
+        <argsstring></argsstring>
+        <name>_currentCheckpoint</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="20" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_round_1a4d9b76448fb09b854dbc5802ff249c64" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RoundManager.Round._inPreparation</definition>
+        <argsstring></argsstring>
+        <name>_inPreparation</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="73" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_round_1a3d3d9d8684a629e30624672ff82c84b2" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RoundManager.Round._totalPrepObjectWeight</definition>
+        <argsstring></argsstring>
+        <name>_totalPrepObjectWeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="80" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_round_1a30f9001a55e5ba15203973457d637f2a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RoundManager.Round._bossSpawned</definition>
+        <argsstring></argsstring>
+        <name>_bossSpawned</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="110" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_round_1af5669ebd2ebc4ba7c6a2facd986e322a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RoundManager.Round._roundTime</definition>
+        <argsstring></argsstring>
+        <name>_roundTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="114" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_round_1a6c43f01c66c31bca5e4eb342b5579c8d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RoundManager.Round._roundEndTriggered</definition>
+        <argsstring></argsstring>
+        <name>_roundEndTriggered</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="173" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_round_1ae18c9131c12509137f784f40b292a135" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RoundManager.Round._timeUp</definition>
+        <argsstring></argsstring>
+        <name>_timeUp</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="175" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_round_1a3bdb172bacf34e385a92fd3e0963ee95" prot="private" static="no" mutable="no">
+        <type><ref refid="class_round_manager_1_1_round_manager" kindref="compound">RoundManager</ref></type>
+        <definition>RoundManager RoundManager.Round._manager</definition>
+        <argsstring></argsstring>
+        <name>_manager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="192" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_round_manager_1_1_round_1af5caa46388278646d34c7255ce52b0be" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_round_manager_1_1_round_checkpoint" kindref="compound">RoundCheckpoint</ref></type>
+        <definition>RoundCheckpoint RoundManager.Round.CurrentCheckpoint</definition>
+        <argsstring></argsstring>
+        <name>CurrentCheckpoint</name>
+        <briefdescription>
+<para>Gets the current checkpoint. </para>        </briefdescription>
+        <detaileddescription>
+<para>The current Checkpoint.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="25" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_round_manager_1_1_round_1a1b6e615e3cde6ad8b16de057f63deea9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool RoundManager.Round.InPreperation</definition>
+        <argsstring></argsstring>
+        <name>InPreperation</name>
+        <briefdescription>
+<para>Gets a value indicating whether this <ref refid="class_round_manager_1_1_round" kindref="compound">RoundManager.Round</ref> is in the preperation stage. </para>        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>true</computeroutput> if in preperation; otherwise, <computeroutput>false</computeroutput>.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="78" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_round_manager_1_1_round_1ae62fa1d669d9e997810330a075c8f313" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float RoundManager.Round.RoundTime</definition>
+        <argsstring></argsstring>
+        <name>RoundTime</name>
+        <briefdescription>
+<para>Returns the round time as float. </para>        </briefdescription>
+        <detaileddescription>
+<para>The round time.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="119" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_round_manager_1_1_round_1a58dc1defbee3968241a14102cd6804e7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int RoundManager.Round.RoundTimeInSeconds</definition>
+        <argsstring></argsstring>
+        <name>RoundTimeInSeconds</name>
+        <briefdescription>
+<para>Gets the round time in seconds. </para>        </briefdescription>
+        <detaileddescription>
+<para>The round time in seconds.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="125" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_round_manager_1_1_round_1ad234c1b6503c0b204a63354860652fed" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float RoundManager.Round.RoundTimeInMinutes</definition>
+        <argsstring></argsstring>
+        <name>RoundTimeInMinutes</name>
+        <briefdescription>
+<para>Gets the round time in minutes. </para>        </briefdescription>
+        <detaileddescription>
+<para>The round time in minutes.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="131" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_round_manager_1_1_round_1a04a73d6f8ba0ffb7191ae66723691cdd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string RoundManager.Round.RoundTimeInMinutesSeconds</definition>
+        <argsstring></argsstring>
+        <name>RoundTimeInMinutesSeconds</name>
+        <briefdescription>
+<para>Returns a string of format &quot;00:00&quot; representing the round time in minutes and seconds. </para>        </briefdescription>
+        <detaileddescription>
+<para>The round time in minutes seconds as formatted string.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="137" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_round_manager_1_1_round_1acf43ece0f30f65cadc87fd0f0ce845ea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float RoundManager.Round.RoundTotalTime</definition>
+        <argsstring></argsstring>
+        <name>RoundTotalTime</name>
+        <briefdescription>
+<para>Gets the round total time, includes <ref refid="class_round_manager_1_1_round_1a5a70ef04a60e0aeddaf1cd1898a419e5" kindref="member">PreperationTime</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>The round total time.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="150" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_round_manager_1_1_round_1a28b27affc0096795a58334d8df899976" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool RoundManager.Round.RoundOver</definition>
+        <argsstring></argsstring>
+        <name>RoundOver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="176" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_round_manager_1_1_round_1a0124a9c0c7b4a57d75c9244503f3beaa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_round_manager_1_1_round_manager" kindref="compound">RoundManager</ref></type>
+        <definition>RoundManager RoundManager.Round.Manager</definition>
+        <argsstring></argsstring>
+        <name>Manager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="193" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_round_manager_1_1_round_1a05eddb1c5682e5df7a137c0065b31592" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.Round.Enter</definition>
+        <argsstring>(RoundManager manager)</argsstring>
+        <name>Enter</name>
+        <param>
+          <type><ref refid="class_round_manager_1_1_round_manager" kindref="compound">RoundManager</ref></type>
+          <declname>manager</declname>
+        </param>
+        <briefdescription>
+<para>Invoked by <ref refid="class_round_manager_1_1_round_manager" kindref="compound">RoundManager</ref>. Not required to be called manually. Called at the beginning of the round. Raises <ref refid="class_round_manager_1_1_events_1_1_destroy_current_enemies_request_event" kindref="compound">DestroyCurrentEnemiesRequestEvent</ref> if <ref refid="class_round_manager_1_1_round_1a037f0609ebfdf5eb6c72be5c9678761d" kindref="member">DestroyPreviousRoundEnemiesOnRoundStart</ref> is true. Raises <ref refid="class_round_manager_1_1_events_1_1_round_start_event" kindref="compound">RoundStartEvent</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>manager</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The rounds owner.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="203" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="203" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_round_1ad727354eb92066e2177679d0cf594c8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.Round.OnPreperationStart</definition>
+        <argsstring>()</argsstring>
+        <name>OnPreperationStart</name>
+        <briefdescription>
+<para>Invoked by <ref refid="class_round_manager_1_1_round_manager" kindref="compound">RoundManager</ref>. Not required to be called manually. Called at the beginning of the round preperation stage. If the round has a preperation stage then <ref refid="class_round_manager_1_1_events_1_1_preperation_start_event" kindref="compound">PreperationStartEvent</ref>. is raised and preperation objects spawned. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="229" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="229" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_round_1ada26cc057fe381cf1178b8c711ba2bff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.Round.OnPreparationOver</definition>
+        <argsstring>()</argsstring>
+        <name>OnPreparationOver</name>
+        <briefdescription>
+<para>Invoked by <ref refid="class_round_manager_1_1_round_manager" kindref="compound">RoundManager</ref>. Not required to be called manually. Called at the end of the rounds preperation stage. If the round has a preperation stage then <ref refid="class_round_manager_1_1_events_1_1_preperation_end_event" kindref="compound">PreperationEndEvent</ref> is raised. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="252" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="252" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_round_1a35ff12762642fe01634f326b53ea9a4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.Round.Execute</definition>
+        <argsstring>()</argsstring>
+        <name>Execute</name>
+        <briefdescription>
+<para>Invoked by <ref refid="class_round_manager_1_1_round_manager" kindref="compound">RoundManager</ref> each time step that round is active. Not required to be called manually. Calls <ref refid="class_round_manager_1_1_round_checkpoint_1a126566a3a5d6e8c0a23f226cfdf05ada" kindref="member">RoundCheckpoint::Execute</ref> for current checkpoint. Increments checkpoint when current checkpoints time reaches zero. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="269" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="269" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_round_1a2f7520d98737224fd63c0c068fdf9c50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.Round.Exit</definition>
+        <argsstring>()</argsstring>
+        <name>Exit</name>
+        <briefdescription>
+<para>Invoked by <ref refid="class_round_manager_1_1_round" kindref="compound">Round</ref> Manager. Not required to be called manually. Raises <ref refid="class_round_manager_1_1_events_1_1_round_end_event" kindref="compound">RoundEndEvent</ref> and if <ref refid="class_round_manager_1_1_round_1a29453a323d20cb447104b57007feba6b" kindref="member">DestroyEnemiesOnRoundEnd</ref> is true, raises <ref refid="class_round_manager_1_1_events_1_1_destroy_current_enemies_request_event" kindref="compound">DestroyCurrentEnemiesRequestEvent</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="298" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="298" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_round_1a920b20ddeb67d8ab4dc68ae956db459f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.Round.TriggerRoundEnd</definition>
+        <argsstring>()</argsstring>
+        <name>TriggerRoundEnd</name>
+        <briefdescription>
+<para>Triggers the round to end immediately if the <ref refid="class_round_manager_1_1_round_1aabbe6a40e81051469e5ca8eefd18303f" kindref="member">RoundProgressType</ref> is <ref refid="" kindref="compound">WhenTriggered </ref> or triggers the round to end when the round time has finished and the <ref refid="class_round_manager_1_1_round_1aabbe6a40e81051469e5ca8eefd18303f" kindref="member">RoundProgressType</ref> is <ref refid="" kindref="compound">WaitForTrigger </ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="311" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="311" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_round_1a8b60989ebf80e7497984efb956ef9a14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.Round.BossKilled</definition>
+        <argsstring>()</argsstring>
+        <name>BossKilled</name>
+        <briefdescription>
+<para>Invoked from <ref refid="class_round_manager_1_1_round_boss" kindref="compound">RoundBoss</ref> when the boss is killed. Raises <ref refid="class_round_manager_1_1_events_1_1_boss_killed_event" kindref="compound">BossKilledEvent</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="319" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="319" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_round_1a3576cddec4411c8a5396861e96c82008" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator RoundManager.Round.SpawnBoss</definition>
+        <argsstring>()</argsstring>
+        <name>SpawnBoss</name>
+        <briefdescription>
+<para>Called if <ref refid="class_round_manager_1_1_round_1a3e8205a74f196546906314f802f41127" kindref="member">RoundHasBoss</ref>. If <ref refid="class_round_manager_1_1_round_1acf766221ab1b301a493e1702acb5ef6a" kindref="member">DestroyOtherEnemiesWhenBossCountdownBegins</ref> is true then raises <ref refid="class_round_manager_1_1_events_1_1_destroy_current_enemies_request_event" kindref="compound">DestroyCurrentEnemiesRequestEvent</ref>. If <ref refid="class_round_manager_1_1_round_1a468cf0f58dd938b9c1f327f55313e71a" kindref="member">BossCountdown</ref> is greater than zero then a <ref refid="class_round_manager_1_1_events_1_1_boss_countdown_begun_event" kindref="compound">BossCountdownBegunEvent</ref> event is raised. <ref refid="class_round_manager_1_1_events_1_1_boss_spawn_request_event" kindref="compound">BossSpawnRequestEvent</ref> is raised once the countdown reaches zero. If <ref refid="class_round_manager_1_1_round_1a3efd4fcc0924c9b469d2cc96f1f418cd" kindref="member">DestroyOtherEnemiesWhenBossSpawns</ref> is truen then a <ref refid="class_round_manager_1_1_events_1_1_destroy_current_enemies_request_event" kindref="compound">DestroyCurrentEnemiesRequestEvent</ref> is raised. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The boss.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="338" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="338" bodyend="361"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_round_manager_1_1_round_1ae5b4d79ac53bec9bbfaf7d21852e4cd4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.Round.TimeUp</definition>
+        <argsstring>()</argsstring>
+        <name>TimeUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="363" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="363" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_round_1a271aaf43fb18641974aafc59e884d2ef" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.Round.IncreaseCheckpoint</definition>
+        <argsstring>()</argsstring>
+        <name>IncreaseCheckpoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="370" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="370" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_round_1a097b76ab093f3dab34d077acc1812687" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.Round.SpawnPreperationObjects</definition>
+        <argsstring>()</argsstring>
+        <name>SpawnPreperationObjects</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="391" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="391" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_round_1a6d20d4fd1241a506ea1e2a2ca80f3454" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int RoundManager.Round.GetIndex</definition>
+        <argsstring>()</argsstring>
+        <name>GetIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="403" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="403" bodyend="422"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_round_1ac9f3ca5006c884fa65d08e1225a55c59" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool RoundManager.Round.ShouldSpawnBoss</definition>
+        <argsstring>()</argsstring>
+        <name>ShouldSpawnBoss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="424" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="424" bodyend="427"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Responsible for storing, managing, and updating an array of Checkpoint. Handles round preperation time (if <ref refid="class_round_manager_1_1_round_1a711e1825e6d269ab0308a79cf25ee8d1" kindref="member">HasPreperationTime</ref>), preperation object spawning, and boss spawning (if <ref refid="class_round_manager_1_1_round_1a3e8205a74f196546906314f802f41127" kindref="member">RoundHasBoss</ref>). </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="182">
+        <label>RoundManager.RoundCheckpoint</label>
+        <link refid="class_round_manager_1_1_round_checkpoint"/>
+        <childnode refid="183" relation="usage">
+          <edgelabel>RoundEnemies</edgelabel>
+        </childnode>
+      </node>
+      <node id="183">
+        <label>RoundObjectSpawner</label>
+        <link refid="class_round_object_spawner"/>
+      </node>
+      <node id="181">
+        <label>RoundManager.Round</label>
+        <link refid="class_round_manager_1_1_round"/>
+        <childnode refid="182" relation="usage">
+          <edgelabel>Checkpoints</edgelabel>
+        </childnode>
+        <childnode refid="183" relation="usage">
+          <edgelabel>PreperationTimeObjects</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Round System/Scripts/_Round System/Rounds/Round.cs" line="13" column="1" bodyfile="Round System/Scripts/_Round System/Rounds/Round.cs" bodystart="12" bodyend="428"/>
+    <listofallmembers>
+      <member refid="class_round_manager_1_1_round_1a30f9001a55e5ba15203973457d637f2a" prot="private" virt="non-virtual"><scope>RoundManager::Round</scope><name>_bossSpawned</name></member>
+      <member refid="class_round_manager_1_1_round_1ae5ae122846cd8ff3b3f6280cf7411752" prot="private" virt="non-virtual"><scope>RoundManager::Round</scope><name>_currentCheckpoint</name></member>
+      <member refid="class_round_manager_1_1_round_1a4d9b76448fb09b854dbc5802ff249c64" prot="private" virt="non-virtual"><scope>RoundManager::Round</scope><name>_inPreparation</name></member>
+      <member refid="class_round_manager_1_1_round_1a3bdb172bacf34e385a92fd3e0963ee95" prot="private" virt="non-virtual"><scope>RoundManager::Round</scope><name>_manager</name></member>
+      <member refid="class_round_manager_1_1_round_1a6c43f01c66c31bca5e4eb342b5579c8d" prot="private" virt="non-virtual"><scope>RoundManager::Round</scope><name>_roundEndTriggered</name></member>
+      <member refid="class_round_manager_1_1_round_1af5669ebd2ebc4ba7c6a2facd986e322a" prot="private" virt="non-virtual"><scope>RoundManager::Round</scope><name>_roundTime</name></member>
+      <member refid="class_round_manager_1_1_round_1ae18c9131c12509137f784f40b292a135" prot="private" virt="non-virtual"><scope>RoundManager::Round</scope><name>_timeUp</name></member>
+      <member refid="class_round_manager_1_1_round_1a3d3d9d8684a629e30624672ff82c84b2" prot="private" virt="non-virtual"><scope>RoundManager::Round</scope><name>_totalPrepObjectWeight</name></member>
+      <member refid="class_round_manager_1_1_round_1a468cf0f58dd938b9c1f327f55313e71a" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>BossCountdown</name></member>
+      <member refid="class_round_manager_1_1_round_1a8b60989ebf80e7497984efb956ef9a14" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>BossKilled</name></member>
+      <member refid="class_round_manager_1_1_round_1ae4903232675603b581af91af5e42ad58" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>Checkpoints</name></member>
+      <member refid="class_round_manager_1_1_round_1af5caa46388278646d34c7255ce52b0be" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>CurrentCheckpoint</name></member>
+      <member refid="class_round_manager_1_1_round_1a29453a323d20cb447104b57007feba6b" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>DestroyEnemiesOnRoundEnd</name></member>
+      <member refid="class_round_manager_1_1_round_1acf766221ab1b301a493e1702acb5ef6a" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>DestroyOtherEnemiesWhenBossCountdownBegins</name></member>
+      <member refid="class_round_manager_1_1_round_1a3efd4fcc0924c9b469d2cc96f1f418cd" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>DestroyOtherEnemiesWhenBossSpawns</name></member>
+      <member refid="class_round_manager_1_1_round_1a037f0609ebfdf5eb6c72be5c9678761d" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>DestroyPreviousRoundEnemiesOnRoundStart</name></member>
+      <member refid="class_round_manager_1_1_round_1a05eddb1c5682e5df7a137c0065b31592" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>Enter</name></member>
+      <member refid="class_round_manager_1_1_round_1a35ff12762642fe01634f326b53ea9a4b" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>Execute</name></member>
+      <member refid="class_round_manager_1_1_round_1a2f7520d98737224fd63c0c068fdf9c50" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>Exit</name></member>
+      <member refid="class_round_manager_1_1_round_1a6d20d4fd1241a506ea1e2a2ca80f3454" prot="private" virt="non-virtual"><scope>RoundManager::Round</scope><name>GetIndex</name></member>
+      <member refid="class_round_manager_1_1_round_1a711e1825e6d269ab0308a79cf25ee8d1" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>HasPreperationTime</name></member>
+      <member refid="class_round_manager_1_1_round_1a271aaf43fb18641974aafc59e884d2ef" prot="private" virt="non-virtual"><scope>RoundManager::Round</scope><name>IncreaseCheckpoint</name></member>
+      <member refid="class_round_manager_1_1_round_1a1b6e615e3cde6ad8b16de057f63deea9" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>InPreperation</name></member>
+      <member refid="class_round_manager_1_1_round_1a0124a9c0c7b4a57d75c9244503f3beaa" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>Manager</name></member>
+      <member refid="class_round_manager_1_1_round_1ae42e5ac4d526b13e552f1b24e5a83a19" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>NumberOfObjectsToSpawn</name></member>
+      <member refid="class_round_manager_1_1_round_1ada26cc057fe381cf1178b8c711ba2bff" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>OnPreparationOver</name></member>
+      <member refid="class_round_manager_1_1_round_1ad727354eb92066e2177679d0cf594c8b" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>OnPreperationStart</name></member>
+      <member refid="class_round_manager_1_1_round_1a5a70ef04a60e0aeddaf1cd1898a419e5" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>PreperationTime</name></member>
+      <member refid="class_round_manager_1_1_round_1a1e58477543ce08f5fd2a436ebadbcc7c" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>PreperationTimeObjects</name></member>
+      <member refid="class_round_manager_1_1_round_1aa29bc68e0391d65a999897ea1e6a20ae" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>ProgressType</name></member>
+      <member refid="class_round_manager_1_1_round_1aebfe780553ec7d96b138eaf9e703629b" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>RoundBossPrefab</name></member>
+      <member refid="class_round_manager_1_1_round_1a3e8205a74f196546906314f802f41127" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>RoundHasBoss</name></member>
+      <member refid="class_round_manager_1_1_round_1a28b27affc0096795a58334d8df899976" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>RoundOver</name></member>
+      <member refid="class_round_manager_1_1_round_1aabbe6a40e81051469e5ca8eefd18303f" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>RoundProgressType</name></member>
+      <member refid="class_round_manager_1_1_round_1ae62fa1d669d9e997810330a075c8f313" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>RoundTime</name></member>
+      <member refid="class_round_manager_1_1_round_1ad234c1b6503c0b204a63354860652fed" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>RoundTimeInMinutes</name></member>
+      <member refid="class_round_manager_1_1_round_1a04a73d6f8ba0ffb7191ae66723691cdd" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>RoundTimeInMinutesSeconds</name></member>
+      <member refid="class_round_manager_1_1_round_1a58dc1defbee3968241a14102cd6804e7" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>RoundTimeInSeconds</name></member>
+      <member refid="class_round_manager_1_1_round_1acf43ece0f30f65cadc87fd0f0ce845ea" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>RoundTotalTime</name></member>
+      <member refid="class_round_manager_1_1_round_1ac9f3ca5006c884fa65d08e1225a55c59" prot="private" virt="non-virtual"><scope>RoundManager::Round</scope><name>ShouldSpawnBoss</name></member>
+      <member refid="class_round_manager_1_1_round_1a3576cddec4411c8a5396861e96c82008" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>SpawnBoss</name></member>
+      <member refid="class_round_manager_1_1_round_1a9c32b59e081626bb406a85caeb2a3cf4" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>SpawnObjectsDuringPreperaionTime</name></member>
+      <member refid="class_round_manager_1_1_round_1a097b76ab093f3dab34d077acc1812687" prot="private" virt="non-virtual"><scope>RoundManager::Round</scope><name>SpawnPreperationObjects</name></member>
+      <member refid="class_round_manager_1_1_round_1ae5b4d79ac53bec9bbfaf7d21852e4cd4" prot="private" virt="non-virtual"><scope>RoundManager::Round</scope><name>TimeUp</name></member>
+      <member refid="class_round_manager_1_1_round_1a920b20ddeb67d8ab4dc68ae956db459f" prot="public" virt="non-virtual"><scope>RoundManager::Round</scope><name>TriggerRoundEnd</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

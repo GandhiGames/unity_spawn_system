@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_round_manager_1_1_lighting_change_on_new_round" kind="class" language="C#" prot="public">
+    <compoundname>RoundManager::LightingChangeOnNewRound</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_lighting_change_on_new_round_1a4c9fddccdd538fdbc361e4843a236282" prot="public" static="no" mutable="no">
+        <type><ref refid="class_round_manager_1_1_round_lighting" kindref="compound">RoundLighting</ref>[]</type>
+        <definition>RoundLighting [] RoundManager.LightingChangeOnNewRound.Lighting</definition>
+        <argsstring></argsstring>
+        <name>Lighting</name>
+        <briefdescription>
+<para>Defines new light colour and intensity as well as the associated round number (defining when to change the lighting). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" line="17" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_lighting_change_on_new_round_1aa8d4ad36749fff9f51b0e180701d2363" prot="private" static="no" mutable="no">
+        <type>Light</type>
+        <definition>Light RoundManager.LightingChangeOnNewRound._light</definition>
+        <argsstring></argsstring>
+        <name>_light</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" line="19" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_lighting_change_on_new_round_1aceabf051bd294e374af045b9980d7d86" prot="private" static="no" mutable="no">
+        <type><ref refid="class_round_manager_1_1_round_lighting" kindref="compound">RoundLighting</ref></type>
+        <definition>RoundLighting RoundManager.LightingChangeOnNewRound._currentLighting</definition>
+        <argsstring></argsstring>
+        <name>_currentLighting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" line="20" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_lighting_change_on_new_round_1a77d2a9a615129513bffeb566fb6234ba" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color RoundManager.LightingChangeOnNewRound._previousLightColour</definition>
+        <argsstring></argsstring>
+        <name>_previousLightColour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" line="21" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_lighting_change_on_new_round_1a34994d031ea04bf10566c726f2ade8fb" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RoundManager.LightingChangeOnNewRound._previousLightIntensity</definition>
+        <argsstring></argsstring>
+        <name>_previousLightIntensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" line="22" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_lighting_change_on_new_round_1a08598909d335ecf8cb852bc49c1fd1d3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_round_manager_1_1_lerp_over_time" kindref="compound">LerpOverTime</ref></type>
+        <definition>LerpOverTime RoundManager.LightingChangeOnNewRound._lerp</definition>
+        <argsstring></argsstring>
+        <name>_lerp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" line="23" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_round_manager_1_1_lighting_change_on_new_round_1a7c16df8aae6502cb403ce70c0ee7e68a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.LightingChangeOnNewRound.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" line="25" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_lighting_change_on_new_round_1a6986a722c8f11626d4d62fe4a1a4af73" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.LightingChangeOnNewRound.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" line="30" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_lighting_change_on_new_round_1a5f37c2e490082f09f66023d1f89ca9d3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.LightingChangeOnNewRound.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" line="35" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_lighting_change_on_new_round_1a3fde37f527d0dc62efe7eca2c8897680" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.LightingChangeOnNewRound.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" line="40" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" bodystart="40" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_lighting_change_on_new_round_1ac8ca7d439169f4c1256652c1bc3ba252" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.LightingChangeOnNewRound.OnRoundChange</definition>
+        <argsstring>(RoundStartEvent e)</argsstring>
+        <name>OnRoundChange</name>
+        <param>
+          <type><ref refid="class_round_manager_1_1_events_1_1_round_start_event" kindref="compound">RoundStartEvent</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" line="48" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" bodystart="48" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Example class reacting to round event <ref refid="class_round_manager_1_1_events_1_1_round_start_event" kindref="compound">RoundStartEvent</ref>. <linebreak/>
+Changes scene lighting colour and intensity when a specific round is reached. Lerps between previous and new colour/intensity. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="139">
+        <label>RoundManager.LightingChangeOnNewRound</label>
+        <link refid="class_round_manager_1_1_lighting_change_on_new_round"/>
+        <childnode refid="140" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="140">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="141">
+        <label>RoundManager.LightingChangeOnNewRound</label>
+        <link refid="class_round_manager_1_1_lighting_change_on_new_round"/>
+        <childnode refid="142" relation="public-inheritance">
+        </childnode>
+        <childnode refid="143" relation="usage">
+          <edgelabel>Lighting</edgelabel>
+        </childnode>
+      </node>
+      <node id="143">
+        <label>RoundManager.RoundLighting</label>
+        <link refid="class_round_manager_1_1_round_lighting"/>
+      </node>
+      <node id="142">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" line="13" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Lighting/LightingChangeOnNewRound.cs" bodystart="12" bodyend="65"/>
+    <listofallmembers>
+      <member refid="class_round_manager_1_1_lighting_change_on_new_round_1aceabf051bd294e374af045b9980d7d86" prot="private" virt="non-virtual"><scope>RoundManager::LightingChangeOnNewRound</scope><name>_currentLighting</name></member>
+      <member refid="class_round_manager_1_1_lighting_change_on_new_round_1a08598909d335ecf8cb852bc49c1fd1d3" prot="private" virt="non-virtual"><scope>RoundManager::LightingChangeOnNewRound</scope><name>_lerp</name></member>
+      <member refid="class_round_manager_1_1_lighting_change_on_new_round_1aa8d4ad36749fff9f51b0e180701d2363" prot="private" virt="non-virtual"><scope>RoundManager::LightingChangeOnNewRound</scope><name>_light</name></member>
+      <member refid="class_round_manager_1_1_lighting_change_on_new_round_1a77d2a9a615129513bffeb566fb6234ba" prot="private" virt="non-virtual"><scope>RoundManager::LightingChangeOnNewRound</scope><name>_previousLightColour</name></member>
+      <member refid="class_round_manager_1_1_lighting_change_on_new_round_1a34994d031ea04bf10566c726f2ade8fb" prot="private" virt="non-virtual"><scope>RoundManager::LightingChangeOnNewRound</scope><name>_previousLightIntensity</name></member>
+      <member refid="class_round_manager_1_1_lighting_change_on_new_round_1a7c16df8aae6502cb403ce70c0ee7e68a" prot="private" virt="non-virtual"><scope>RoundManager::LightingChangeOnNewRound</scope><name>Awake</name></member>
+      <member refid="class_round_manager_1_1_lighting_change_on_new_round_1a4c9fddccdd538fdbc361e4843a236282" prot="public" virt="non-virtual"><scope>RoundManager::LightingChangeOnNewRound</scope><name>Lighting</name></member>
+      <member refid="class_round_manager_1_1_lighting_change_on_new_round_1a5f37c2e490082f09f66023d1f89ca9d3" prot="private" virt="non-virtual"><scope>RoundManager::LightingChangeOnNewRound</scope><name>OnDisable</name></member>
+      <member refid="class_round_manager_1_1_lighting_change_on_new_round_1a6986a722c8f11626d4d62fe4a1a4af73" prot="private" virt="non-virtual"><scope>RoundManager::LightingChangeOnNewRound</scope><name>OnEnable</name></member>
+      <member refid="class_round_manager_1_1_lighting_change_on_new_round_1ac8ca7d439169f4c1256652c1bc3ba252" prot="private" virt="non-virtual"><scope>RoundManager::LightingChangeOnNewRound</scope><name>OnRoundChange</name></member>
+      <member refid="class_round_manager_1_1_lighting_change_on_new_round_1a3fde37f527d0dc62efe7eca2c8897680" prot="private" virt="non-virtual"><scope>RoundManager::LightingChangeOnNewRound</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

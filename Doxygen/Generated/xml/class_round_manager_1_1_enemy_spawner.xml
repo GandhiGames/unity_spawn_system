@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_round_manager_1_1_enemy_spawner" kind="class" language="C#" prot="public">
+    <compoundname>RoundManager::EnemySpawner</compoundname>
+    <basecompoundref refid="class_round_manager_1_1_spawner" prot="public" virt="non-virtual">RoundManager.Spawner</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_enemy_spawner_1ab1de20b71e864a0f70ea0e04d0a4ed53" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_round_manager_1_1_enemy_health" kindref="compound">EnemyHealth</ref> &gt;</type>
+        <definition>List&lt;EnemyHealth&gt; RoundManager.EnemySpawner._enemies</definition>
+        <argsstring></argsstring>
+        <name>_enemies</name>
+        <initializer>= new List&lt;<ref refid="class_round_manager_1_1_enemy_health" kindref="compound">EnemyHealth</ref>&gt; ()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Spawn/EnemySpawner.cs" line="16" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Spawn/EnemySpawner.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_round_manager_1_1_enemy_spawner_1ad3ac9af3ab51704935a68967d418ddca" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.EnemySpawner.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Spawn/EnemySpawner.cs" line="18" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Spawn/EnemySpawner.cs" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_enemy_spawner_1a7a0a9c93180bcb247fe4b3f1d2679f99" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.EnemySpawner.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Spawn/EnemySpawner.cs" line="25" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Spawn/EnemySpawner.cs" bodystart="25" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_enemy_spawner_1a74c99388b13ad4525a1e55ed1dfffbee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.EnemySpawner.OnSpawnEnemy</definition>
+        <argsstring>(EnemySpawnRequestEvent e)</argsstring>
+        <name>OnSpawnEnemy</name>
+        <param>
+          <type><ref refid="class_round_manager_1_1_events_1_1_enemy_spawn_request_event" kindref="compound">EnemySpawnRequestEvent</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Spawn/EnemySpawner.cs" line="32" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Spawn/EnemySpawner.cs" bodystart="32" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_enemy_spawner_1ae66e4783691e4602e6235ac760ee7eae" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.EnemySpawner.OnSpawnBoss</definition>
+        <argsstring>(BossSpawnRequestEvent e)</argsstring>
+        <name>OnSpawnBoss</name>
+        <param>
+          <type><ref refid="class_round_manager_1_1_events_1_1_boss_spawn_request_event" kindref="compound">BossSpawnRequestEvent</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Spawn/EnemySpawner.cs" line="38" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Spawn/EnemySpawner.cs" bodystart="38" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_enemy_spawner_1a644dd778913448d2081f2d6375fef730" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.EnemySpawner.OnDestroyObjects</definition>
+        <argsstring>(DestroyCurrentEnemiesRequestEvent e)</argsstring>
+        <name>OnDestroyObjects</name>
+        <param>
+          <type><ref refid="class_round_manager_1_1_events_1_1_destroy_current_enemies_request_event" kindref="compound">DestroyCurrentEnemiesRequestEvent</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Spawn/EnemySpawner.cs" line="44" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Spawn/EnemySpawner.cs" bodystart="44" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Example class reacting to spawn request events. <linebreak/>
+Spawns enemy when <ref refid="class_round_manager_1_1_events_1_1_enemy_spawn_request_event" kindref="compound">EnemySpawnRequestEvent</ref> is raised. <linebreak/>
+Spawns boss when <ref refid="class_round_manager_1_1_events_1_1_boss_spawn_request_event" kindref="compound">BossSpawnRequestEvent</ref> is raised. <linebreak/>
+Destroys all spawned enemies when <ref refid="class_round_manager_1_1_events_1_1_destroy_current_enemies_request_event" kindref="compound">DestroyCurrentEnemiesRequestEvent</ref> is raised. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="90">
+        <label>RoundManager.EnemySpawner</label>
+        <link refid="class_round_manager_1_1_enemy_spawner"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>Spawner</label>
+        <link refid="class_round_manager_1_1_spawner"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="92">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="93">
+        <label>RoundManager.EnemySpawner</label>
+        <link refid="class_round_manager_1_1_enemy_spawner"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>Spawner</label>
+        <link refid="class_round_manager_1_1_spawner"/>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Round System/Scripts/Demo Scripts/Event Examples/Spawn/EnemySpawner.cs" line="15" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Spawn/EnemySpawner.cs" bodystart="14" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_round_manager_1_1_enemy_spawner_1ab1de20b71e864a0f70ea0e04d0a4ed53" prot="private" virt="non-virtual"><scope>RoundManager::EnemySpawner</scope><name>_enemies</name></member>
+      <member refid="class_round_manager_1_1_enemy_spawner_1a644dd778913448d2081f2d6375fef730" prot="private" virt="non-virtual"><scope>RoundManager::EnemySpawner</scope><name>OnDestroyObjects</name></member>
+      <member refid="class_round_manager_1_1_enemy_spawner_1a7a0a9c93180bcb247fe4b3f1d2679f99" prot="private" virt="non-virtual"><scope>RoundManager::EnemySpawner</scope><name>OnDisable</name></member>
+      <member refid="class_round_manager_1_1_enemy_spawner_1ad3ac9af3ab51704935a68967d418ddca" prot="private" virt="non-virtual"><scope>RoundManager::EnemySpawner</scope><name>OnEnable</name></member>
+      <member refid="class_round_manager_1_1_enemy_spawner_1ae66e4783691e4602e6235ac760ee7eae" prot="private" virt="non-virtual"><scope>RoundManager::EnemySpawner</scope><name>OnSpawnBoss</name></member>
+      <member refid="class_round_manager_1_1_enemy_spawner_1a74c99388b13ad4525a1e55ed1dfffbee" prot="private" virt="non-virtual"><scope>RoundManager::EnemySpawner</scope><name>OnSpawnEnemy</name></member>
+      <member refid="class_round_manager_1_1_spawner_1aa2f66eb87803f254d470944c4451437d" prot="public" virt="non-virtual"><scope>RoundManager::EnemySpawner</scope><name>RegisterTile</name></member>
+      <member refid="class_round_manager_1_1_spawner_1a8423267d70fee5a07b51c87cb9701295" prot="protected" virt="non-virtual"><scope>RoundManager::EnemySpawner</scope><name>SpawnObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

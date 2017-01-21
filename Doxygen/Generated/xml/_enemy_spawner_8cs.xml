@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="_enemy_spawner_8cs" kind="file" language="C#">
+    <compoundname>EnemySpawner.cs</compoundname>
+    <innerclass refid="class_round_manager_1_1_enemy_spawner" prot="public">RoundManager::EnemySpawner</innerclass>
+    <innernamespace refid="namespace_round_manager">RoundManager</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_unity_engine" kindref="compound">UnityEngine</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_round_manager" kindref="compound">RoundManager</ref>.<ref refid="namespace_round_manager_1_1_events" kindref="compound">Events</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_round_manager" kindref="compound">RoundManager</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14" refid="class_round_manager_1_1_enemy_spawner" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_round_manager_1_1_enemy_spawner" kindref="compound">EnemySpawner</ref><sp/>:<sp/><ref refid="class_round_manager_1_1_spawner" kindref="compound">Spawner</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>List&lt;EnemyHealth&gt;<sp/>_enemies<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>List&lt;EnemyHealth&gt;<sp/>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnEnable<sp/>()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_round_manager_1_1_events_1_1_round_events" kindref="compound">RoundEvents</ref>.Instance.AddListener&lt;<ref refid="class_round_manager_1_1_events_1_1_boss_spawn_request_event" kindref="compound">BossSpawnRequestEvent</ref>&gt;<sp/>(OnSpawnBoss);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_round_manager_1_1_events_1_1_round_events" kindref="compound">RoundEvents</ref>.Instance.AddListener&lt;<ref refid="class_round_manager_1_1_events_1_1_enemy_spawn_request_event" kindref="compound">EnemySpawnRequestEvent</ref>&gt;<sp/>(OnSpawnEnemy);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_round_manager_1_1_events_1_1_round_events" kindref="compound">RoundEvents</ref>.Instance.AddListener&lt;<ref refid="class_round_manager_1_1_events_1_1_destroy_current_enemies_request_event" kindref="compound">DestroyCurrentEnemiesRequestEvent</ref>&gt;<sp/>(OnDestroyObjects);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnDisable<sp/>()</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_round_manager_1_1_events_1_1_round_events" kindref="compound">RoundEvents</ref>.Instance.RemoveListener&lt;<ref refid="class_round_manager_1_1_events_1_1_boss_spawn_request_event" kindref="compound">BossSpawnRequestEvent</ref>&gt;<sp/>(OnSpawnBoss);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_round_manager_1_1_events_1_1_round_events" kindref="compound">RoundEvents</ref>.Instance.RemoveListener&lt;<ref refid="class_round_manager_1_1_events_1_1_enemy_spawn_request_event" kindref="compound">EnemySpawnRequestEvent</ref>&gt;<sp/>(OnSpawnEnemy);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_round_manager_1_1_events_1_1_round_events" kindref="compound">RoundEvents</ref>.Instance.RemoveListener&lt;<ref refid="class_round_manager_1_1_events_1_1_destroy_current_enemies_request_event" kindref="compound">DestroyCurrentEnemiesRequestEvent</ref>&gt;<sp/>(OnDestroyObjects);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnSpawnEnemy<sp/>(<ref refid="class_round_manager_1_1_events_1_1_enemy_spawn_request_event" kindref="compound">EnemySpawnRequestEvent</ref><sp/>e)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>enemy<sp/>=<sp/>SpawnObject<sp/>(e.<ref refid="class_round_manager_1_1_events_1_1_object_spawn_request_event_1a8a95244117fcfc697e4299c73dffea64" kindref="member">ObjectPrefab</ref>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_enemies.Add<sp/>(enemy.GetComponent&lt;<ref refid="class_round_manager_1_1_enemy_health" kindref="compound">EnemyHealth</ref>&gt;<sp/>());</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnSpawnBoss<sp/>(<ref refid="class_round_manager_1_1_events_1_1_boss_spawn_request_event" kindref="compound">BossSpawnRequestEvent</ref><sp/>e)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>boss<sp/>=<sp/>SpawnObject<sp/>(e.<ref refid="class_round_manager_1_1_events_1_1_object_spawn_request_event_1a8a95244117fcfc697e4299c73dffea64" kindref="member">ObjectPrefab</ref>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_round_manager_1_1_events_1_1_round_events" kindref="compound">RoundEvents</ref>.Instance.<ref refid="class_round_manager_1_1_events_1_1_round_events_1a477082a157f8299656ecae23ff0374b6" kindref="member">Raise</ref><sp/>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_round_manager_1_1_events_1_1_boss_spawned_event" kindref="compound">BossSpawnedEvent</ref><sp/>(<ref refid="namespace_round_manager" kindref="compound">RoundManager</ref>.Instance.CurrentRound,<sp/>boss));</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnDestroyObjects<sp/>(<ref refid="class_round_manager_1_1_events_1_1_destroy_current_enemies_request_event" kindref="compound">DestroyCurrentEnemiesRequestEvent</ref><sp/>e)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(var<sp/>obj<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>_enemies)<sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(obj)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>obj.OnDead<sp/>();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_enemies.Clear<sp/>();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Round System/Scripts/Demo Scripts/Event Examples/Spawn/EnemySpawner.cs"/>
+  </compounddef>
+</doxygen>

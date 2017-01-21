@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_round_manager_1_1_show_text_on_round_start" kind="class" language="C#" prot="public">
+    <compoundname>RoundManager::ShowTextOnRoundStart</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_show_text_on_round_start_1aebad0b6e62010a4b000d1253733bf252" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string RoundManager.ShowTextOnRoundStart.PreRoundNumberText</definition>
+        <argsstring></argsstring>
+        <name>PreRoundNumberText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/ShowTextOnRoundStart.cs" line="15" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/ShowTextOnRoundStart.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_show_text_on_round_start_1a3134e526bd18771b45dab725fbb43ad9" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string RoundManager.ShowTextOnRoundStart.PostRoundNumberText</definition>
+        <argsstring></argsstring>
+        <name>PostRoundNumberText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/ShowTextOnRoundStart.cs" line="16" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/ShowTextOnRoundStart.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_show_text_on_round_start_1ae9a9ab6bae6699b5f2e8af98aafcd525" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RoundManager.ShowTextOnRoundStart.ShowForSeconds</definition>
+        <argsstring></argsstring>
+        <name>ShowForSeconds</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/ShowTextOnRoundStart.cs" line="18" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/ShowTextOnRoundStart.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_show_text_on_round_start_1affab198347b32fce5c85ac486d76966e" prot="private" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text RoundManager.ShowTextOnRoundStart._text</definition>
+        <argsstring></argsstring>
+        <name>_text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/ShowTextOnRoundStart.cs" line="20" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/ShowTextOnRoundStart.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_round_manager_1_1_show_text_on_round_start_1ae5d7d1abfd1872732dafdabac3c53215" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.ShowTextOnRoundStart.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/ShowTextOnRoundStart.cs" line="22" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/ShowTextOnRoundStart.cs" bodystart="22" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_show_text_on_round_start_1a9ddf13279019b9671146045d55485d15" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.ShowTextOnRoundStart.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/ShowTextOnRoundStart.cs" line="28" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/ShowTextOnRoundStart.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_show_text_on_round_start_1a3d3e58fc5d6d5e6bcc11ecdc0e0a512e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.ShowTextOnRoundStart.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/ShowTextOnRoundStart.cs" line="33" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/ShowTextOnRoundStart.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_show_text_on_round_start_1a5c10d3736175c7613cb858ea6d6b76e1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.ShowTextOnRoundStart.OnRoundStart</definition>
+        <argsstring>(RoundStartEvent e)</argsstring>
+        <name>OnRoundStart</name>
+        <param>
+          <type><ref refid="class_round_manager_1_1_events_1_1_round_start_event" kindref="compound">RoundStartEvent</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/ShowTextOnRoundStart.cs" line="38" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/ShowTextOnRoundStart.cs" bodystart="38" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_show_text_on_round_start_1a34541e22264beb3a69f45b2c20ca9fff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator RoundManager.ShowTextOnRoundStart.DisableText</definition>
+        <argsstring>()</argsstring>
+        <name>DisableText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/ShowTextOnRoundStart.cs" line="47" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/ShowTextOnRoundStart.cs" bodystart="47" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Example class reacting to round event <ref refid="class_round_manager_1_1_events_1_1_round_start_event" kindref="compound">RoundStartEvent</ref>. <linebreak/>
+Shows round number on screen when <ref refid="class_round_manager_1_1_events_1_1_round_start_event" kindref="compound">RoundStartEvent</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="250">
+        <label>RoundManager.ShowTextOnRoundStart</label>
+        <link refid="class_round_manager_1_1_show_text_on_round_start"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="251">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="252">
+        <label>RoundManager.ShowTextOnRoundStart</label>
+        <link refid="class_round_manager_1_1_show_text_on_round_start"/>
+        <childnode refid="253" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="253">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/ShowTextOnRoundStart.cs" line="14" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/ShowTextOnRoundStart.cs" bodystart="13" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_round_manager_1_1_show_text_on_round_start_1affab198347b32fce5c85ac486d76966e" prot="private" virt="non-virtual"><scope>RoundManager::ShowTextOnRoundStart</scope><name>_text</name></member>
+      <member refid="class_round_manager_1_1_show_text_on_round_start_1ae5d7d1abfd1872732dafdabac3c53215" prot="private" virt="non-virtual"><scope>RoundManager::ShowTextOnRoundStart</scope><name>Awake</name></member>
+      <member refid="class_round_manager_1_1_show_text_on_round_start_1a34541e22264beb3a69f45b2c20ca9fff" prot="private" virt="non-virtual"><scope>RoundManager::ShowTextOnRoundStart</scope><name>DisableText</name></member>
+      <member refid="class_round_manager_1_1_show_text_on_round_start_1a3d3e58fc5d6d5e6bcc11ecdc0e0a512e" prot="private" virt="non-virtual"><scope>RoundManager::ShowTextOnRoundStart</scope><name>OnDisable</name></member>
+      <member refid="class_round_manager_1_1_show_text_on_round_start_1a9ddf13279019b9671146045d55485d15" prot="private" virt="non-virtual"><scope>RoundManager::ShowTextOnRoundStart</scope><name>OnEnable</name></member>
+      <member refid="class_round_manager_1_1_show_text_on_round_start_1a5c10d3736175c7613cb858ea6d6b76e1" prot="private" virt="non-virtual"><scope>RoundManager::ShowTextOnRoundStart</scope><name>OnRoundStart</name></member>
+      <member refid="class_round_manager_1_1_show_text_on_round_start_1a3134e526bd18771b45dab725fbb43ad9" prot="public" virt="non-virtual"><scope>RoundManager::ShowTextOnRoundStart</scope><name>PostRoundNumberText</name></member>
+      <member refid="class_round_manager_1_1_show_text_on_round_start_1aebad0b6e62010a4b000d1253733bf252" prot="public" virt="non-virtual"><scope>RoundManager::ShowTextOnRoundStart</scope><name>PreRoundNumberText</name></member>
+      <member refid="class_round_manager_1_1_show_text_on_round_start_1ae9a9ab6bae6699b5f2e8af98aafcd525" prot="public" virt="non-virtual"><scope>RoundManager::ShowTextOnRoundStart</scope><name>ShowForSeconds</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

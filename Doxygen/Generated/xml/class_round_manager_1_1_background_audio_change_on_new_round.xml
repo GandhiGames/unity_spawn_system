@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_round_manager_1_1_background_audio_change_on_new_round" kind="class" language="C#" prot="public">
+    <compoundname>RoundManager::BackgroundAudioChangeOnNewRound</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_background_audio_change_on_new_round_1ad7f96bc656537dedf4282c2be974fffd" prot="public" static="no" mutable="no">
+        <type><ref refid="class_round_manager_1_1_background_audio" kindref="compound">BackgroundAudio</ref>[]</type>
+        <definition>BackgroundAudio [] RoundManager.BackgroundAudioChangeOnNewRound.Audio</definition>
+        <argsstring></argsstring>
+        <name>Audio</name>
+        <briefdescription>
+<para>Defines audio clips to play and their associated round number (defining when to start the clip). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" line="17" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_background_audio_change_on_new_round_1a9f2a0c95753766e9f65f8bd896f049ff" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource RoundManager.BackgroundAudioChangeOnNewRound._audio</definition>
+        <argsstring></argsstring>
+        <name>_audio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" line="19" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_background_audio_change_on_new_round_1a291e5133aca69f2e030d945413c78e9e" prot="private" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip RoundManager.BackgroundAudioChangeOnNewRound._audioClipTwo</definition>
+        <argsstring></argsstring>
+        <name>_audioClipTwo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" line="21" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_background_audio_change_on_new_round_1a00398255c6bf6681330ea1613490e6c2" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RoundManager.BackgroundAudioChangeOnNewRound._fadeSpeed</definition>
+        <argsstring></argsstring>
+        <name>_fadeSpeed</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" line="22" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_background_audio_change_on_new_round_1a88066e681d3f099e3c545d15712fdc9f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RoundManager.BackgroundAudioChangeOnNewRound._firstPlay</definition>
+        <argsstring></argsstring>
+        <name>_firstPlay</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" line="23" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_round_manager_1_1_background_audio_change_on_new_round_1a3eeb4a9899feccec6dd502609135d3d9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.BackgroundAudioChangeOnNewRound.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" line="25" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_background_audio_change_on_new_round_1a836c563f2fc6a237fd3d78d92c5a0635" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.BackgroundAudioChangeOnNewRound.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" line="30" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_background_audio_change_on_new_round_1a11f212ce8a6955ec9d715d15eb35ad1a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.BackgroundAudioChangeOnNewRound.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" line="35" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_background_audio_change_on_new_round_1aeede81ad7179134f9a0546353e364c8b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.BackgroundAudioChangeOnNewRound.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" line="40" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" bodystart="40" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_background_audio_change_on_new_round_1a549538aece4191336a702cb5299aabc6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.BackgroundAudioChangeOnNewRound.FadeOut</definition>
+        <argsstring>()</argsstring>
+        <name>FadeOut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" line="61" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" bodystart="61" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_background_audio_change_on_new_round_1aa787b66bf448e26dd8324e41ace18548" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.BackgroundAudioChangeOnNewRound.FadeIn</definition>
+        <argsstring>()</argsstring>
+        <name>FadeIn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" line="66" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_background_audio_change_on_new_round_1aad78f8e94c350e1884fa52363a32fb28" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.BackgroundAudioChangeOnNewRound.OnNewRound</definition>
+        <argsstring>(RoundStartEvent e)</argsstring>
+        <name>OnNewRound</name>
+        <param>
+          <type><ref refid="class_round_manager_1_1_events_1_1_round_start_event" kindref="compound">RoundStartEvent</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" line="71" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" bodystart="71" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Example class reacting to round event <ref refid="class_round_manager_1_1_events_1_1_round_start_event" kindref="compound">RoundStartEvent</ref>. <linebreak/>
+Changes background audio when a specific round is reached. Fades between previous audio clip and new clip. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="11">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="10">
+        <label>RoundManager.BackgroundAudioChangeOnNewRound</label>
+        <link refid="class_round_manager_1_1_background_audio_change_on_new_round"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="14">
+        <label>RoundManager.BackgroundAudio</label>
+        <link refid="class_round_manager_1_1_background_audio"/>
+      </node>
+      <node id="13">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="12">
+        <label>RoundManager.BackgroundAudioChangeOnNewRound</label>
+        <link refid="class_round_manager_1_1_background_audio_change_on_new_round"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>Audio</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" line="13" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudioChangeOnNewRound.cs" bodystart="12" bodyend="91"/>
+    <listofallmembers>
+      <member refid="class_round_manager_1_1_background_audio_change_on_new_round_1a9f2a0c95753766e9f65f8bd896f049ff" prot="private" virt="non-virtual"><scope>RoundManager::BackgroundAudioChangeOnNewRound</scope><name>_audio</name></member>
+      <member refid="class_round_manager_1_1_background_audio_change_on_new_round_1a291e5133aca69f2e030d945413c78e9e" prot="private" virt="non-virtual"><scope>RoundManager::BackgroundAudioChangeOnNewRound</scope><name>_audioClipTwo</name></member>
+      <member refid="class_round_manager_1_1_background_audio_change_on_new_round_1a00398255c6bf6681330ea1613490e6c2" prot="private" virt="non-virtual"><scope>RoundManager::BackgroundAudioChangeOnNewRound</scope><name>_fadeSpeed</name></member>
+      <member refid="class_round_manager_1_1_background_audio_change_on_new_round_1a88066e681d3f099e3c545d15712fdc9f" prot="private" virt="non-virtual"><scope>RoundManager::BackgroundAudioChangeOnNewRound</scope><name>_firstPlay</name></member>
+      <member refid="class_round_manager_1_1_background_audio_change_on_new_round_1ad7f96bc656537dedf4282c2be974fffd" prot="public" virt="non-virtual"><scope>RoundManager::BackgroundAudioChangeOnNewRound</scope><name>Audio</name></member>
+      <member refid="class_round_manager_1_1_background_audio_change_on_new_round_1a3eeb4a9899feccec6dd502609135d3d9" prot="private" virt="non-virtual"><scope>RoundManager::BackgroundAudioChangeOnNewRound</scope><name>Awake</name></member>
+      <member refid="class_round_manager_1_1_background_audio_change_on_new_round_1aa787b66bf448e26dd8324e41ace18548" prot="private" virt="non-virtual"><scope>RoundManager::BackgroundAudioChangeOnNewRound</scope><name>FadeIn</name></member>
+      <member refid="class_round_manager_1_1_background_audio_change_on_new_round_1a549538aece4191336a702cb5299aabc6" prot="private" virt="non-virtual"><scope>RoundManager::BackgroundAudioChangeOnNewRound</scope><name>FadeOut</name></member>
+      <member refid="class_round_manager_1_1_background_audio_change_on_new_round_1a11f212ce8a6955ec9d715d15eb35ad1a" prot="private" virt="non-virtual"><scope>RoundManager::BackgroundAudioChangeOnNewRound</scope><name>OnDisable</name></member>
+      <member refid="class_round_manager_1_1_background_audio_change_on_new_round_1a836c563f2fc6a237fd3d78d92c5a0635" prot="private" virt="non-virtual"><scope>RoundManager::BackgroundAudioChangeOnNewRound</scope><name>OnEnable</name></member>
+      <member refid="class_round_manager_1_1_background_audio_change_on_new_round_1aad78f8e94c350e1884fa52363a32fb28" prot="private" virt="non-virtual"><scope>RoundManager::BackgroundAudioChangeOnNewRound</scope><name>OnNewRound</name></member>
+      <member refid="class_round_manager_1_1_background_audio_change_on_new_round_1aeede81ad7179134f9a0546353e364c8b" prot="private" virt="non-virtual"><scope>RoundManager::BackgroundAudioChangeOnNewRound</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

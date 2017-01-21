@@ -1,0 +1,149 @@
+\hypertarget{class_round_manager_1_1_round_checkpoint}{}\section{Round\+Manager.\+Round\+Checkpoint Class Reference}
+\label{class_round_manager_1_1_round_checkpoint}\index{Round\+Manager.\+Round\+Checkpoint@{Round\+Manager.\+Round\+Checkpoint}}
+
+
+Responsible for raising \hyperlink{class_round_manager_1_1_events_1_1_enemy_spawn_request_event}{Enemy\+Spawn\+Request\+Event}.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_round_manager_1_1_round_checkpoint_a8b8e190a0804b829e03baeec0b874718}{Enter} ()
+\begin{DoxyCompactList}\small\item\em Invoked by \hyperlink{class_round_manager_1_1_round}{Round}. Not required to be called manually. Called at the beginning of each checkpoint. \end{DoxyCompactList}\item 
+void \hyperlink{class_round_manager_1_1_round_checkpoint_a126566a3a5d6e8c0a23f226cfdf05ada}{Execute} ()
+\begin{DoxyCompactList}\small\item\em Invoked by \hyperlink{class_round_manager_1_1_round}{Round} each time step that checkpoint is active. Not required to be called manually. Raises \hyperlink{class_round_manager_1_1_events_1_1_enemy_spawn_request_event}{Enemy\+Spawn\+Request\+Event} if\+: ~\newline
+\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{class_round_manager_1_1_round_checkpoint_ada4e5eb5397f8a0de95c80d0a5c6c74b}{Checkpoint\+Time} = 10
+\begin{DoxyCompactList}\small\item\em Total checkpoint time. \end{DoxyCompactList}\item 
+float \hyperlink{class_round_manager_1_1_round_checkpoint_aba7ecc26b04bdae77b97cf832a0c124a}{Enemy\+Spawn\+Chance} = 1
+\begin{DoxyCompactList}\small\item\em A number between 0 and 1. Every time an enemy is to be spawned, a random number between 0 and 1 is generated. If this random number is less than or equal to this then the enemy is spawned. Higher number results in a greater chance to spawn an enemy and 1 results in a spawned enemy every time. \end{DoxyCompactList}\item 
+float \hyperlink{class_round_manager_1_1_round_checkpoint_a89a907432354ddb6380327606010b498}{Time\+Between\+Enemy\+Spawns} = 0.\+5f
+\begin{DoxyCompactList}\small\item\em The time between enemy spawns. \end{DoxyCompactList}\item 
+bool \hyperlink{class_round_manager_1_1_round_checkpoint_a74d49222fa14c7c369334853014f337b}{Limit\+Enemy\+Count}
+\begin{DoxyCompactList}\small\item\em The number of enemies spawned during this checkpoint will be limited if this is true. \end{DoxyCompactList}\item 
+int \hyperlink{class_round_manager_1_1_round_checkpoint_a3a6d5508cf0353445c8114d22e00a69b}{Max\+Enemies}
+\begin{DoxyCompactList}\small\item\em If \hyperlink{class_round_manager_1_1_round_checkpoint_a74d49222fa14c7c369334853014f337b}{Limit\+Enemy\+Count} is true, this number will cap the number of enemies spawned. \end{DoxyCompactList}\item 
+\hyperlink{class_round_object_spawner}{Round\+Object\+Spawner}\mbox{[}$\,$\mbox{]} \hyperlink{class_round_manager_1_1_round_checkpoint_a9e735b282759700b04092b495e9f902b}{Round\+Enemies}
+\begin{DoxyCompactList}\small\item\em The enemies owned by this checkpoint. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_round_manager_1_1_round_checkpoint_a999618b6a717923fb7afd4b2d09e7f0c}{Checkpoint\+Time\+In\+Seconds}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the checkpoint time in seconds. \end{DoxyCompactList}\item 
+float \hyperlink{class_round_manager_1_1_round_checkpoint_aab2ccb73ae364490337cf5aed2b5c954}{Checkpoint\+Time\+In\+Minutes}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the checkpoint time in minutes. \end{DoxyCompactList}\item 
+string \hyperlink{class_round_manager_1_1_round_checkpoint_a3c3f6d3af9c4f8240c3005e1e3b98892}{Checkpoint\+Time\+In\+Minutes\+Seconds}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Returns a string of format \char`\"{}00\+:00\char`\"{} representing the checkpoint time in minutes and seconds. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Responsible for raising \hyperlink{class_round_manager_1_1_events_1_1_enemy_spawn_request_event}{Enemy\+Spawn\+Request\+Event}. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_round_manager_1_1_round_checkpoint_a8b8e190a0804b829e03baeec0b874718}{}\index{Round\+Manager\+::\+Round\+Checkpoint@{Round\+Manager\+::\+Round\+Checkpoint}!Enter@{Enter}}
+\index{Enter@{Enter}!Round\+Manager\+::\+Round\+Checkpoint@{Round\+Manager\+::\+Round\+Checkpoint}}
+\subsubsection[{Enter()}]{\setlength{\rightskip}{0pt plus 5cm}void Round\+Manager.\+Round\+Checkpoint.\+Enter (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_round_manager_1_1_round_checkpoint_a8b8e190a0804b829e03baeec0b874718}
+
+
+Invoked by \hyperlink{class_round_manager_1_1_round}{Round}. Not required to be called manually. Called at the beginning of each checkpoint. 
+
+\hypertarget{class_round_manager_1_1_round_checkpoint_a126566a3a5d6e8c0a23f226cfdf05ada}{}\index{Round\+Manager\+::\+Round\+Checkpoint@{Round\+Manager\+::\+Round\+Checkpoint}!Execute@{Execute}}
+\index{Execute@{Execute}!Round\+Manager\+::\+Round\+Checkpoint@{Round\+Manager\+::\+Round\+Checkpoint}}
+\subsubsection[{Execute()}]{\setlength{\rightskip}{0pt plus 5cm}void Round\+Manager.\+Round\+Checkpoint.\+Execute (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_round_manager_1_1_round_checkpoint_a126566a3a5d6e8c0a23f226cfdf05ada}
+
+
+Invoked by \hyperlink{class_round_manager_1_1_round}{Round} each time step that checkpoint is active. Not required to be called manually. Raises \hyperlink{class_round_manager_1_1_events_1_1_enemy_spawn_request_event}{Enemy\+Spawn\+Request\+Event} if\+: ~\newline
+
+
+
+\begin{DoxyItemize}
+\item \hyperlink{class_round_manager_1_1_round_checkpoint_a9e735b282759700b04092b495e9f902b}{Round\+Enemies} count greater than 0.
+\item The current time between enemy spawns is $>$= \hyperlink{class_round_manager_1_1_round_checkpoint_a89a907432354ddb6380327606010b498}{Time\+Between\+Enemy\+Spawns}.
+\item A random value between 0 and 1 is $<$= \hyperlink{class_round_manager_1_1_round_checkpoint_aba7ecc26b04bdae77b97cf832a0c124a}{Enemy\+Spawn\+Chance}. 
+\end{DoxyItemize}
+
+\subsection{Member Data Documentation}
+\hypertarget{class_round_manager_1_1_round_checkpoint_ada4e5eb5397f8a0de95c80d0a5c6c74b}{}\index{Round\+Manager\+::\+Round\+Checkpoint@{Round\+Manager\+::\+Round\+Checkpoint}!Checkpoint\+Time@{Checkpoint\+Time}}
+\index{Checkpoint\+Time@{Checkpoint\+Time}!Round\+Manager\+::\+Round\+Checkpoint@{Round\+Manager\+::\+Round\+Checkpoint}}
+\subsubsection[{Checkpoint\+Time}]{\setlength{\rightskip}{0pt plus 5cm}float Round\+Manager.\+Round\+Checkpoint.\+Checkpoint\+Time = 10}\label{class_round_manager_1_1_round_checkpoint_ada4e5eb5397f8a0de95c80d0a5c6c74b}
+
+
+Total checkpoint time. 
+
+\hypertarget{class_round_manager_1_1_round_checkpoint_aba7ecc26b04bdae77b97cf832a0c124a}{}\index{Round\+Manager\+::\+Round\+Checkpoint@{Round\+Manager\+::\+Round\+Checkpoint}!Enemy\+Spawn\+Chance@{Enemy\+Spawn\+Chance}}
+\index{Enemy\+Spawn\+Chance@{Enemy\+Spawn\+Chance}!Round\+Manager\+::\+Round\+Checkpoint@{Round\+Manager\+::\+Round\+Checkpoint}}
+\subsubsection[{Enemy\+Spawn\+Chance}]{\setlength{\rightskip}{0pt plus 5cm}float Round\+Manager.\+Round\+Checkpoint.\+Enemy\+Spawn\+Chance = 1}\label{class_round_manager_1_1_round_checkpoint_aba7ecc26b04bdae77b97cf832a0c124a}
+
+
+A number between 0 and 1. Every time an enemy is to be spawned, a random number between 0 and 1 is generated. If this random number is less than or equal to this then the enemy is spawned. Higher number results in a greater chance to spawn an enemy and 1 results in a spawned enemy every time. 
+
+\hypertarget{class_round_manager_1_1_round_checkpoint_a74d49222fa14c7c369334853014f337b}{}\index{Round\+Manager\+::\+Round\+Checkpoint@{Round\+Manager\+::\+Round\+Checkpoint}!Limit\+Enemy\+Count@{Limit\+Enemy\+Count}}
+\index{Limit\+Enemy\+Count@{Limit\+Enemy\+Count}!Round\+Manager\+::\+Round\+Checkpoint@{Round\+Manager\+::\+Round\+Checkpoint}}
+\subsubsection[{Limit\+Enemy\+Count}]{\setlength{\rightskip}{0pt plus 5cm}bool Round\+Manager.\+Round\+Checkpoint.\+Limit\+Enemy\+Count}\label{class_round_manager_1_1_round_checkpoint_a74d49222fa14c7c369334853014f337b}
+
+
+The number of enemies spawned during this checkpoint will be limited if this is true. 
+
+\hypertarget{class_round_manager_1_1_round_checkpoint_a3a6d5508cf0353445c8114d22e00a69b}{}\index{Round\+Manager\+::\+Round\+Checkpoint@{Round\+Manager\+::\+Round\+Checkpoint}!Max\+Enemies@{Max\+Enemies}}
+\index{Max\+Enemies@{Max\+Enemies}!Round\+Manager\+::\+Round\+Checkpoint@{Round\+Manager\+::\+Round\+Checkpoint}}
+\subsubsection[{Max\+Enemies}]{\setlength{\rightskip}{0pt plus 5cm}int Round\+Manager.\+Round\+Checkpoint.\+Max\+Enemies}\label{class_round_manager_1_1_round_checkpoint_a3a6d5508cf0353445c8114d22e00a69b}
+
+
+If \hyperlink{class_round_manager_1_1_round_checkpoint_a74d49222fa14c7c369334853014f337b}{Limit\+Enemy\+Count} is true, this number will cap the number of enemies spawned. 
+
+\hypertarget{class_round_manager_1_1_round_checkpoint_a9e735b282759700b04092b495e9f902b}{}\index{Round\+Manager\+::\+Round\+Checkpoint@{Round\+Manager\+::\+Round\+Checkpoint}!Round\+Enemies@{Round\+Enemies}}
+\index{Round\+Enemies@{Round\+Enemies}!Round\+Manager\+::\+Round\+Checkpoint@{Round\+Manager\+::\+Round\+Checkpoint}}
+\subsubsection[{Round\+Enemies}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Round\+Object\+Spawner} \mbox{[}$\,$\mbox{]} Round\+Manager.\+Round\+Checkpoint.\+Round\+Enemies}\label{class_round_manager_1_1_round_checkpoint_a9e735b282759700b04092b495e9f902b}
+
+
+The enemies owned by this checkpoint. 
+
+\hypertarget{class_round_manager_1_1_round_checkpoint_a89a907432354ddb6380327606010b498}{}\index{Round\+Manager\+::\+Round\+Checkpoint@{Round\+Manager\+::\+Round\+Checkpoint}!Time\+Between\+Enemy\+Spawns@{Time\+Between\+Enemy\+Spawns}}
+\index{Time\+Between\+Enemy\+Spawns@{Time\+Between\+Enemy\+Spawns}!Round\+Manager\+::\+Round\+Checkpoint@{Round\+Manager\+::\+Round\+Checkpoint}}
+\subsubsection[{Time\+Between\+Enemy\+Spawns}]{\setlength{\rightskip}{0pt plus 5cm}float Round\+Manager.\+Round\+Checkpoint.\+Time\+Between\+Enemy\+Spawns = 0.\+5f}\label{class_round_manager_1_1_round_checkpoint_a89a907432354ddb6380327606010b498}
+
+
+The time between enemy spawns. 
+
+
+
+\subsection{Property Documentation}
+\hypertarget{class_round_manager_1_1_round_checkpoint_aab2ccb73ae364490337cf5aed2b5c954}{}\index{Round\+Manager\+::\+Round\+Checkpoint@{Round\+Manager\+::\+Round\+Checkpoint}!Checkpoint\+Time\+In\+Minutes@{Checkpoint\+Time\+In\+Minutes}}
+\index{Checkpoint\+Time\+In\+Minutes@{Checkpoint\+Time\+In\+Minutes}!Round\+Manager\+::\+Round\+Checkpoint@{Round\+Manager\+::\+Round\+Checkpoint}}
+\subsubsection[{Checkpoint\+Time\+In\+Minutes}]{\setlength{\rightskip}{0pt plus 5cm}float Round\+Manager.\+Round\+Checkpoint.\+Checkpoint\+Time\+In\+Minutes\hspace{0.3cm}{\ttfamily [get]}}\label{class_round_manager_1_1_round_checkpoint_aab2ccb73ae364490337cf5aed2b5c954}
+
+
+Gets the checkpoint time in minutes. 
+
+The checkpoint time in minutes.\hypertarget{class_round_manager_1_1_round_checkpoint_a3c3f6d3af9c4f8240c3005e1e3b98892}{}\index{Round\+Manager\+::\+Round\+Checkpoint@{Round\+Manager\+::\+Round\+Checkpoint}!Checkpoint\+Time\+In\+Minutes\+Seconds@{Checkpoint\+Time\+In\+Minutes\+Seconds}}
+\index{Checkpoint\+Time\+In\+Minutes\+Seconds@{Checkpoint\+Time\+In\+Minutes\+Seconds}!Round\+Manager\+::\+Round\+Checkpoint@{Round\+Manager\+::\+Round\+Checkpoint}}
+\subsubsection[{Checkpoint\+Time\+In\+Minutes\+Seconds}]{\setlength{\rightskip}{0pt plus 5cm}string Round\+Manager.\+Round\+Checkpoint.\+Checkpoint\+Time\+In\+Minutes\+Seconds\hspace{0.3cm}{\ttfamily [get]}}\label{class_round_manager_1_1_round_checkpoint_a3c3f6d3af9c4f8240c3005e1e3b98892}
+
+
+Returns a string of format \char`\"{}00\+:00\char`\"{} representing the checkpoint time in minutes and seconds. 
+
+The checkpoint time in minutes seconds as formatted string.\hypertarget{class_round_manager_1_1_round_checkpoint_a999618b6a717923fb7afd4b2d09e7f0c}{}\index{Round\+Manager\+::\+Round\+Checkpoint@{Round\+Manager\+::\+Round\+Checkpoint}!Checkpoint\+Time\+In\+Seconds@{Checkpoint\+Time\+In\+Seconds}}
+\index{Checkpoint\+Time\+In\+Seconds@{Checkpoint\+Time\+In\+Seconds}!Round\+Manager\+::\+Round\+Checkpoint@{Round\+Manager\+::\+Round\+Checkpoint}}
+\subsubsection[{Checkpoint\+Time\+In\+Seconds}]{\setlength{\rightskip}{0pt plus 5cm}int Round\+Manager.\+Round\+Checkpoint.\+Checkpoint\+Time\+In\+Seconds\hspace{0.3cm}{\ttfamily [get]}}\label{class_round_manager_1_1_round_checkpoint_a999618b6a717923fb7afd4b2d09e7f0c}
+
+
+Gets the checkpoint time in seconds. 
+
+The checkpoint time in seconds.
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Round System/\+Scripts/\+\_\+\+Round System/\+Rounds/Round\+Checkpoint.\+cs\end{DoxyCompactItemize}

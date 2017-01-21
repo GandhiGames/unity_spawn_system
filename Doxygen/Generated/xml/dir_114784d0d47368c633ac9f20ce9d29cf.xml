@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="dir_114784d0d47368c633ac9f20ce9d29cf" kind="dir">
+    <compoundname>Round System/Scripts/_Round System/Event System/_Templates/Preperation Events</compoundname>
+    <innerfile refid="_preperation_end_8cs">PreperationEnd.cs</innerfile>
+    <innerfile refid="_preperation_start_8cs">PreperationStart.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Round System/Scripts/_Round System/Event System/_Templates/Preperation Events/"/>
+  </compounddef>
+</doxygen>

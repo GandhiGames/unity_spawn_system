@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_round_manager_1_1_rounds_finished_text" kind="class" language="C#" prot="public">
+    <compoundname>RoundManager::RoundsFinishedText</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_rounds_finished_text_1a513cef838712669fc37e2983312af1db" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string RoundManager.RoundsFinishedText.TextToShow</definition>
+        <argsstring></argsstring>
+        <name>TextToShow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/RoundsFinishedText.cs" line="15" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/RoundsFinishedText.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_rounds_finished_text_1a558c66439bd9fbde9848e0024ab3a76b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RoundManager.RoundsFinishedText.ShowForSeconds</definition>
+        <argsstring></argsstring>
+        <name>ShowForSeconds</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/RoundsFinishedText.cs" line="17" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/RoundsFinishedText.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_rounds_finished_text_1a5d56ab972811ab717bf3855225b5887e" prot="private" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text RoundManager.RoundsFinishedText._text</definition>
+        <argsstring></argsstring>
+        <name>_text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/RoundsFinishedText.cs" line="19" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/RoundsFinishedText.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_round_manager_1_1_rounds_finished_text_1aac668258d386621460d888315994ea55" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.RoundsFinishedText.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/RoundsFinishedText.cs" line="21" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/RoundsFinishedText.cs" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_rounds_finished_text_1a07b083967ace6f62270e0466d6a0408e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.RoundsFinishedText.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/RoundsFinishedText.cs" line="27" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/RoundsFinishedText.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_rounds_finished_text_1a3d73c61076f46f3c9a5f6b8ab92e9bba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.RoundsFinishedText.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/RoundsFinishedText.cs" line="32" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/RoundsFinishedText.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_rounds_finished_text_1a1dea5856fa8c46d259e28fef51a19d91" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.RoundsFinishedText.OnRoundsFinished</definition>
+        <argsstring>(FinishedRoundsEvent e)</argsstring>
+        <name>OnRoundsFinished</name>
+        <param>
+          <type><ref refid="class_round_manager_1_1_events_1_1_finished_rounds_event" kindref="compound">FinishedRoundsEvent</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/RoundsFinishedText.cs" line="37" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/RoundsFinishedText.cs" bodystart="37" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_rounds_finished_text_1a770a630f5cd8936204888925484adbb2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator RoundManager.RoundsFinishedText.DisableText</definition>
+        <argsstring>()</argsstring>
+        <name>DisableText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/RoundsFinishedText.cs" line="46" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/RoundsFinishedText.cs" bodystart="46" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Example class reacting to round event <ref refid="class_round_manager_1_1_events_1_1_finished_rounds_event" kindref="compound">FinishedRoundsEvent</ref>. <linebreak/>
+Shows #TextToShow on screen when <ref refid="class_round_manager_1_1_events_1_1_finished_rounds_event" kindref="compound">FinishedRoundsEvent</ref> is raised i.e. all rounds have finished. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="238">
+        <label>RoundManager.RoundsFinishedText</label>
+        <link refid="class_round_manager_1_1_rounds_finished_text"/>
+        <childnode refid="239" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="239">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="240">
+        <label>RoundManager.RoundsFinishedText</label>
+        <link refid="class_round_manager_1_1_rounds_finished_text"/>
+        <childnode refid="241" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="241">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/RoundsFinishedText.cs" line="14" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/RoundsFinishedText.cs" bodystart="13" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_round_manager_1_1_rounds_finished_text_1a5d56ab972811ab717bf3855225b5887e" prot="private" virt="non-virtual"><scope>RoundManager::RoundsFinishedText</scope><name>_text</name></member>
+      <member refid="class_round_manager_1_1_rounds_finished_text_1aac668258d386621460d888315994ea55" prot="private" virt="non-virtual"><scope>RoundManager::RoundsFinishedText</scope><name>Awake</name></member>
+      <member refid="class_round_manager_1_1_rounds_finished_text_1a770a630f5cd8936204888925484adbb2" prot="private" virt="non-virtual"><scope>RoundManager::RoundsFinishedText</scope><name>DisableText</name></member>
+      <member refid="class_round_manager_1_1_rounds_finished_text_1a3d73c61076f46f3c9a5f6b8ab92e9bba" prot="private" virt="non-virtual"><scope>RoundManager::RoundsFinishedText</scope><name>OnDisable</name></member>
+      <member refid="class_round_manager_1_1_rounds_finished_text_1a07b083967ace6f62270e0466d6a0408e" prot="private" virt="non-virtual"><scope>RoundManager::RoundsFinishedText</scope><name>OnEnable</name></member>
+      <member refid="class_round_manager_1_1_rounds_finished_text_1a1dea5856fa8c46d259e28fef51a19d91" prot="private" virt="non-virtual"><scope>RoundManager::RoundsFinishedText</scope><name>OnRoundsFinished</name></member>
+      <member refid="class_round_manager_1_1_rounds_finished_text_1a558c66439bd9fbde9848e0024ab3a76b" prot="public" virt="non-virtual"><scope>RoundManager::RoundsFinishedText</scope><name>ShowForSeconds</name></member>
+      <member refid="class_round_manager_1_1_rounds_finished_text_1a513cef838712669fc37e2983312af1db" prot="public" virt="non-virtual"><scope>RoundManager::RoundsFinishedText</scope><name>TextToShow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

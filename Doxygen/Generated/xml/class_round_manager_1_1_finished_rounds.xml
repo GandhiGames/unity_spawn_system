@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_round_manager_1_1_finished_rounds" kind="class" language="C#" prot="public">
+    <compoundname>RoundManager::FinishedRounds</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_round_manager_1_1_finished_rounds_1a47d815af4af8a519a6d88e0d8a92ef71" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.FinishedRounds.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/_Templates/Round Events/FinishedRounds.cs" line="14" column="1" bodyfile="Round System/Scripts/_Round System/Event System/_Templates/Round Events/FinishedRounds.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_finished_rounds_1ac205f21b1e568bc254afe341ff524772" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.FinishedRounds.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/_Templates/Round Events/FinishedRounds.cs" line="19" column="1" bodyfile="Round System/Scripts/_Round System/Event System/_Templates/Round Events/FinishedRounds.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_round_manager_1_1_finished_rounds_1af2fcf6393affac3bc199d2b27f982d27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.FinishedRounds.OnFinishedRounds</definition>
+        <argsstring>(FinishedRoundsEvent e)</argsstring>
+        <name>OnFinishedRounds</name>
+        <param>
+          <type><ref refid="class_round_manager_1_1_events_1_1_finished_rounds_event" kindref="compound">FinishedRoundsEvent</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>React to <ref refid="class_round_manager_1_1_events_1_1_finished_rounds_event" kindref="compound">FinishedRoundsEvent</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Event.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/_Templates/Round Events/FinishedRounds.cs" line="28" column="1" bodyfile="Round System/Scripts/_Round System/Event System/_Templates/Round Events/FinishedRounds.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Template class. Use this as a template to react to a <ref refid="class_round_manager_1_1_events_1_1_finished_rounds_event" kindref="compound">FinishedRoundsEvent</ref>. This event is raised when all rounds are complete. Place your logic in the <ref refid="class_round_manager_1_1_finished_rounds_1af2fcf6393affac3bc199d2b27f982d27" kindref="member">OnFinishedRounds</ref> function. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="113">
+        <label>RoundManager.FinishedRounds</label>
+        <link refid="class_round_manager_1_1_finished_rounds"/>
+        <childnode refid="114" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="114">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="115">
+        <label>RoundManager.FinishedRounds</label>
+        <link refid="class_round_manager_1_1_finished_rounds"/>
+        <childnode refid="116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="116">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Round System/Scripts/_Round System/Event System/_Templates/Round Events/FinishedRounds.cs" line="13" column="1" bodyfile="Round System/Scripts/_Round System/Event System/_Templates/Round Events/FinishedRounds.cs" bodystart="12" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_round_manager_1_1_finished_rounds_1ac205f21b1e568bc254afe341ff524772" prot="private" virt="non-virtual"><scope>RoundManager::FinishedRounds</scope><name>OnDisable</name></member>
+      <member refid="class_round_manager_1_1_finished_rounds_1a47d815af4af8a519a6d88e0d8a92ef71" prot="private" virt="non-virtual"><scope>RoundManager::FinishedRounds</scope><name>OnEnable</name></member>
+      <member refid="class_round_manager_1_1_finished_rounds_1af2fcf6393affac3bc199d2b27f982d27" prot="public" virt="non-virtual"><scope>RoundManager::FinishedRounds</scope><name>OnFinishedRounds</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_round_manager_1_1_boss_killed" kind="class" language="C#" prot="public">
+    <compoundname>RoundManager::BossKilled</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_round_manager_1_1_boss_killed_1a8a9c563cc610c7df3ee34112f8eef960" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.BossKilled.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/_Templates/Boss Events/BossKilled.cs" line="14" column="1" bodyfile="Round System/Scripts/_Round System/Event System/_Templates/Boss Events/BossKilled.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_boss_killed_1a46548658aa92bd540af66c0b6ec7d5b3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.BossKilled.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/_Templates/Boss Events/BossKilled.cs" line="19" column="1" bodyfile="Round System/Scripts/_Round System/Event System/_Templates/Boss Events/BossKilled.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_round_manager_1_1_boss_killed_1a6b8d67c8093c04bada8d2cf68854247c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.BossKilled.OnBossKilled</definition>
+        <argsstring>(BossKilledEvent e)</argsstring>
+        <name>OnBossKilled</name>
+        <param>
+          <type><ref refid="class_round_manager_1_1_events_1_1_boss_killed_event" kindref="compound">BossKilledEvent</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>React to <ref refid="class_round_manager_1_1_events_1_1_boss_killed_event" kindref="compound">BossKilledEvent</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Event.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/_Templates/Boss Events/BossKilled.cs" line="28" column="1" bodyfile="Round System/Scripts/_Round System/Event System/_Templates/Boss Events/BossKilled.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Template class. Use this as a template to react to a <ref refid="class_round_manager_1_1_events_1_1_boss_killed_event" kindref="compound">BossKilledEvent</ref>. This event is raised whenever a boss is killed. Place your logic in the <ref refid="class_round_manager_1_1_boss_killed_1a6b8d67c8093c04bada8d2cf68854247c" kindref="member">OnBossKilled</ref> function. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="27">
+        <label>RoundManager.BossKilled</label>
+        <link refid="class_round_manager_1_1_boss_killed"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="29">
+        <label>RoundManager.BossKilled</label>
+        <link refid="class_round_manager_1_1_boss_killed"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Round System/Scripts/_Round System/Event System/_Templates/Boss Events/BossKilled.cs" line="13" column="1" bodyfile="Round System/Scripts/_Round System/Event System/_Templates/Boss Events/BossKilled.cs" bodystart="12" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_round_manager_1_1_boss_killed_1a6b8d67c8093c04bada8d2cf68854247c" prot="public" virt="non-virtual"><scope>RoundManager::BossKilled</scope><name>OnBossKilled</name></member>
+      <member refid="class_round_manager_1_1_boss_killed_1a46548658aa92bd540af66c0b6ec7d5b3" prot="private" virt="non-virtual"><scope>RoundManager::BossKilled</scope><name>OnDisable</name></member>
+      <member refid="class_round_manager_1_1_boss_killed_1a8a9c563cc610c7df3ee34112f8eef960" prot="private" virt="non-virtual"><scope>RoundManager::BossKilled</scope><name>OnEnable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

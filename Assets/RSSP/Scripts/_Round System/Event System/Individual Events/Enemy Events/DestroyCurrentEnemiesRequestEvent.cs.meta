@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d3621328e13d14557890698fe8f5be85
+labels:
+- Enemy
+- Destroy
+timeCreated: 1436968334
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

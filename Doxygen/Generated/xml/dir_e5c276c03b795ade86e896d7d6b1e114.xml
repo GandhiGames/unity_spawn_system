@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="dir_e5c276c03b795ade86e896d7d6b1e114" kind="dir">
+    <compoundname>Round System/Scripts/_Round System/Event System/Individual Events/Boss Events</compoundname>
+    <innerfile refid="_boss_countdown_begun_event_8cs">BossCountdownBegunEvent.cs</innerfile>
+    <innerfile refid="_boss_killed_event_8cs">BossKilledEvent.cs</innerfile>
+    <innerfile refid="_boss_spawned_event_8cs">BossSpawnedEvent.cs</innerfile>
+    <innerfile refid="_boss_spawn_request_event_8cs">BossSpawnRequestEvent.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Round System/Scripts/_Round System/Event System/Individual Events/Boss Events/"/>
+  </compounddef>
+</doxygen>

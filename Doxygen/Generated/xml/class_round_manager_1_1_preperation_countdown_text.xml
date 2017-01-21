@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_round_manager_1_1_preperation_countdown_text" kind="class" language="C#" prot="public">
+    <compoundname>RoundManager::PreperationCountdownText</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_preperation_countdown_text_1aef276f5fdb2d48fbd97b100394c03f21" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string RoundManager.PreperationCountdownText.PrePreperationTimeText</definition>
+        <argsstring></argsstring>
+        <name>PrePreperationTimeText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/PreperationCountdownText.cs" line="15" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/PreperationCountdownText.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_preperation_countdown_text_1ad6897dfde404f2bd9a1ef8b0e21468a2" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string RoundManager.PreperationCountdownText.PostPreperationTimeText</definition>
+        <argsstring></argsstring>
+        <name>PostPreperationTimeText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/PreperationCountdownText.cs" line="16" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/PreperationCountdownText.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_preperation_countdown_text_1af505098310c0b07803ad42fc42bca732" prot="private" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text RoundManager.PreperationCountdownText._text</definition>
+        <argsstring></argsstring>
+        <name>_text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/PreperationCountdownText.cs" line="18" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/PreperationCountdownText.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_preperation_countdown_text_1a8ceb0a9b8ff74fc0c8444673523b8c8c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_round_manager_1_1_round" kindref="compound">Round</ref></type>
+        <definition>Round RoundManager.PreperationCountdownText._currentRound</definition>
+        <argsstring></argsstring>
+        <name>_currentRound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/PreperationCountdownText.cs" line="19" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/PreperationCountdownText.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_round_manager_1_1_preperation_countdown_text_1aa7dff00826dda7b1e6a42f7d1ec3bbde" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.PreperationCountdownText.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/PreperationCountdownText.cs" line="21" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/PreperationCountdownText.cs" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_preperation_countdown_text_1aa1cd831017ac74b55fd5bfaabf903b1b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.PreperationCountdownText.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/PreperationCountdownText.cs" line="27" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/PreperationCountdownText.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_preperation_countdown_text_1a5f01b7e0c2eadf615fe9266a5238544c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.PreperationCountdownText.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/PreperationCountdownText.cs" line="32" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/PreperationCountdownText.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_preperation_countdown_text_1a257aaf6a7b85f68cd8aad47503f28d50" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.PreperationCountdownText.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/PreperationCountdownText.cs" line="38" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/PreperationCountdownText.cs" bodystart="38" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_preperation_countdown_text_1a03b0f43f52c3aede708f30d648c9c820" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.PreperationCountdownText.OnPreperationStart</definition>
+        <argsstring>(PreperationStartEvent e)</argsstring>
+        <name>OnPreperationStart</name>
+        <param>
+          <type><ref refid="class_round_manager_1_1_events_1_1_preperation_start_event" kindref="compound">PreperationStartEvent</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/PreperationCountdownText.cs" line="50" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/PreperationCountdownText.cs" bodystart="50" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Example class reacting to round event <ref refid="class_round_manager_1_1_events_1_1_preperation_start_event" kindref="compound">PreperationStartEvent</ref>. <linebreak/>
+Shows round preperation countdown text on screen when <ref refid="class_round_manager_1_1_events_1_1_preperation_start_event" kindref="compound">PreperationStartEvent</ref> is raised. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="160">
+        <label>RoundManager.PreperationCountdownText</label>
+        <link refid="class_round_manager_1_1_preperation_countdown_text"/>
+        <childnode refid="161" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="161">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="162">
+        <label>RoundManager.PreperationCountdownText</label>
+        <link refid="class_round_manager_1_1_preperation_countdown_text"/>
+        <childnode refid="163" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="163">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Round System/Scripts/Demo Scripts/Event Examples/Text/PreperationCountdownText.cs" line="14" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Text/PreperationCountdownText.cs" bodystart="13" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_round_manager_1_1_preperation_countdown_text_1a8ceb0a9b8ff74fc0c8444673523b8c8c" prot="private" virt="non-virtual"><scope>RoundManager::PreperationCountdownText</scope><name>_currentRound</name></member>
+      <member refid="class_round_manager_1_1_preperation_countdown_text_1af505098310c0b07803ad42fc42bca732" prot="private" virt="non-virtual"><scope>RoundManager::PreperationCountdownText</scope><name>_text</name></member>
+      <member refid="class_round_manager_1_1_preperation_countdown_text_1aa7dff00826dda7b1e6a42f7d1ec3bbde" prot="private" virt="non-virtual"><scope>RoundManager::PreperationCountdownText</scope><name>Awake</name></member>
+      <member refid="class_round_manager_1_1_preperation_countdown_text_1a5f01b7e0c2eadf615fe9266a5238544c" prot="private" virt="non-virtual"><scope>RoundManager::PreperationCountdownText</scope><name>OnDisable</name></member>
+      <member refid="class_round_manager_1_1_preperation_countdown_text_1aa1cd831017ac74b55fd5bfaabf903b1b" prot="private" virt="non-virtual"><scope>RoundManager::PreperationCountdownText</scope><name>OnEnable</name></member>
+      <member refid="class_round_manager_1_1_preperation_countdown_text_1a03b0f43f52c3aede708f30d648c9c820" prot="private" virt="non-virtual"><scope>RoundManager::PreperationCountdownText</scope><name>OnPreperationStart</name></member>
+      <member refid="class_round_manager_1_1_preperation_countdown_text_1ad6897dfde404f2bd9a1ef8b0e21468a2" prot="public" virt="non-virtual"><scope>RoundManager::PreperationCountdownText</scope><name>PostPreperationTimeText</name></member>
+      <member refid="class_round_manager_1_1_preperation_countdown_text_1aef276f5fdb2d48fbd97b100394c03f21" prot="public" virt="non-virtual"><scope>RoundManager::PreperationCountdownText</scope><name>PrePreperationTimeText</name></member>
+      <member refid="class_round_manager_1_1_preperation_countdown_text_1a257aaf6a7b85f68cd8aad47503f28d50" prot="private" virt="non-virtual"><scope>RoundManager::PreperationCountdownText</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

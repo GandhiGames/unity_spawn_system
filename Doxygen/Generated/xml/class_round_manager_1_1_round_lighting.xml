@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_round_manager_1_1_round_lighting" kind="class" language="C#" prot="public">
+    <compoundname>RoundManager::RoundLighting</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_round_lighting_1abfc7abd8d147288729e66041060f6cb6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RoundManager.RoundLighting.RoundNumber</definition>
+        <argsstring></argsstring>
+        <name>RoundNumber</name>
+        <briefdescription>
+<para><ref refid="class_round_manager_1_1_round" kindref="compound">Round</ref> number to update lighting. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Lighting/RoundLighting.cs" line="17" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Lighting/RoundLighting.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_round_lighting_1afa86c17986cd7aeb47d38888408b0557" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color RoundManager.RoundLighting.LightingColour</definition>
+        <argsstring></argsstring>
+        <name>LightingColour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Lighting/RoundLighting.cs" line="19" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Lighting/RoundLighting.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_round_lighting_1a4be33f3d58ec6d595669b9c0969b83cb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RoundManager.RoundLighting.LightIntensity</definition>
+        <argsstring></argsstring>
+        <name>LightIntensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Lighting/RoundLighting.cs" line="23" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Lighting/RoundLighting.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Used by <ref refid="class_round_manager_1_1_lighting_change_on_new_round" kindref="compound">LightingChangeOnNewRound</ref>. Defines new light colour and intensity as well as the associated round number (defining when to change the lighting). </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Round System/Scripts/Demo Scripts/Event Examples/Lighting/RoundLighting.cs" line="13" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Lighting/RoundLighting.cs" bodystart="12" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_round_manager_1_1_round_lighting_1afa86c17986cd7aeb47d38888408b0557" prot="public" virt="non-virtual"><scope>RoundManager::RoundLighting</scope><name>LightingColour</name></member>
+      <member refid="class_round_manager_1_1_round_lighting_1a4be33f3d58ec6d595669b9c0969b83cb" prot="public" virt="non-virtual"><scope>RoundManager::RoundLighting</scope><name>LightIntensity</name></member>
+      <member refid="class_round_manager_1_1_round_lighting_1abfc7abd8d147288729e66041060f6cb6" prot="public" virt="non-virtual"><scope>RoundManager::RoundLighting</scope><name>RoundNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

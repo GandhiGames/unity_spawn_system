@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_round_manager_1_1_environment" kind="class" language="C#" prot="public">
+    <compoundname>RoundManager::Environment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_environment_1a2308e0c1593dcfb99f5b457424705e00" prot="public" static="no" mutable="no">
+        <type><ref refid="class_round_manager_1_1_spawner" kindref="compound">Spawner</ref></type>
+        <definition>Spawner RoundManager.Environment.EnemySpawner</definition>
+        <argsstring></argsstring>
+        <name>EnemySpawner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Environment/Environment.cs" line="13" column="1" bodyfile="Round System/Scripts/Demo Scripts/Environment/Environment.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_environment_1a16607a83616387641c46f2a9bb4b314c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_round_manager_1_1_spawner" kindref="compound">Spawner</ref></type>
+        <definition>Spawner RoundManager.Environment.ObjectSpawner</definition>
+        <argsstring></argsstring>
+        <name>ObjectSpawner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Environment/Environment.cs" line="14" column="1" bodyfile="Round System/Scripts/Demo Scripts/Environment/Environment.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_environment_1a48807fcbcaba6b945990bb68e5448e2c" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject RoundManager.Environment.FloorPrefab</definition>
+        <argsstring></argsstring>
+        <name>FloorPrefab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Environment/Environment.cs" line="15" column="1" bodyfile="Round System/Scripts/Demo Scripts/Environment/Environment.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_environment_1afbc7d245df23cffaa548dc0259cda3fa" prot="public" static="no" mutable="no">
+        <type>Sprite[]</type>
+        <definition>Sprite [] RoundManager.Environment.FloorSprites</definition>
+        <argsstring></argsstring>
+        <name>FloorSprites</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Environment/Environment.cs" line="16" column="1" bodyfile="Round System/Scripts/Demo Scripts/Environment/Environment.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_environment_1aa1067665c1fb00a33bc71852e5326b4d" prot="public" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect RoundManager.Environment.RoomSize</definition>
+        <argsstring></argsstring>
+        <name>RoomSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Environment/Environment.cs" line="17" column="1" bodyfile="Round System/Scripts/Demo Scripts/Environment/Environment.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_environment_1af13e96cd0aa631187dba6a544bf0e4b1" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_round_manager_1_1_vector2i" kindref="compound">Vector2i</ref></type>
+        <definition>Vector2i RoundManager.Environment.EnemySpawnArea</definition>
+        <argsstring></argsstring>
+        <name>EnemySpawnArea</name>
+        <initializer>= new <ref refid="struct_round_manager_1_1_vector2i" kindref="compound">Vector2i</ref> (3, 3)</initializer>
+        <briefdescription>
+<para>The enemy spawn area consists of the blocks surrounding the floor area. This defines the size of the surrounding area. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Environment/Environment.cs" line="22" column="1" bodyfile="Round System/Scripts/Demo Scripts/Environment/Environment.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_round_manager_1_1_environment_1a976f982c5c465988cd4b988745d207f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.Environment.GenerateFloor</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateFloor</name>
+        <briefdescription>
+<para>Generates the demo environment. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Environment/Environment.cs" line="27" column="1" bodyfile="Round System/Scripts/Demo Scripts/Environment/Environment.cs" bodystart="27" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_round_manager_1_1_environment_1a11e45e516f093a89e48e9f38c63ff470" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.Environment.UpdateCellSprite</definition>
+        <argsstring>(GameObject tileClone)</argsstring>
+        <name>UpdateCellSprite</name>
+        <param>
+          <type>GameObject</type>
+          <declname>tileClone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Environment/Environment.cs" line="62" column="1" bodyfile="Round System/Scripts/Demo Scripts/Environment/Environment.cs" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_environment_1a8468aa007e7ae5dc3144d3f861d2c368" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool RoundManager.Environment.HasFloorSpriteOptions</definition>
+        <argsstring>()</argsstring>
+        <name>HasFloorSpriteOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Environment/Environment.cs" line="67" column="1" bodyfile="Round System/Scripts/Demo Scripts/Environment/Environment.cs" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_environment_1a23f9a4202a159b06e8c4dd950871a347" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float RoundManager.Environment.GetTileWidth</definition>
+        <argsstring>(Sprite tile)</argsstring>
+        <name>GetTileWidth</name>
+        <param>
+          <type>Sprite</type>
+          <declname>tile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Environment/Environment.cs" line="72" column="1" bodyfile="Round System/Scripts/Demo Scripts/Environment/Environment.cs" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_environment_1abbcc2ba8def0468f4f9faab65eaca2f3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float RoundManager.Environment.GetTileHeight</definition>
+        <argsstring>(Sprite tile)</argsstring>
+        <name>GetTileHeight</name>
+        <param>
+          <type>Sprite</type>
+          <declname>tile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Environment/Environment.cs" line="77" column="1" bodyfile="Round System/Scripts/Demo Scripts/Environment/Environment.cs" bodystart="77" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Generates the demo scene environment. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="107">
+        <label>RoundManager.Environment</label>
+        <link refid="class_round_manager_1_1_environment"/>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="108">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="109">
+        <label>RoundManager.Environment</label>
+        <link refid="class_round_manager_1_1_environment"/>
+        <childnode refid="110" relation="public-inheritance">
+        </childnode>
+        <childnode refid="111" relation="usage">
+          <edgelabel>ObjectSpawner</edgelabel>
+          <edgelabel>EnemySpawner</edgelabel>
+        </childnode>
+        <childnode refid="112" relation="usage">
+          <edgelabel>EnemySpawnArea</edgelabel>
+        </childnode>
+      </node>
+      <node id="112">
+        <label>RoundManager.Vector2i</label>
+        <link refid="struct_round_manager_1_1_vector2i"/>
+      </node>
+      <node id="111">
+        <label>RoundManager.Spawner</label>
+        <link refid="class_round_manager_1_1_spawner"/>
+        <childnode refid="110" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="110">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Round System/Scripts/Demo Scripts/Environment/Environment.cs" line="12" column="1" bodyfile="Round System/Scripts/Demo Scripts/Environment/Environment.cs" bodystart="11" bodyend="85"/>
+    <listofallmembers>
+      <member refid="class_round_manager_1_1_environment_1af13e96cd0aa631187dba6a544bf0e4b1" prot="public" virt="non-virtual"><scope>RoundManager::Environment</scope><name>EnemySpawnArea</name></member>
+      <member refid="class_round_manager_1_1_environment_1a2308e0c1593dcfb99f5b457424705e00" prot="public" virt="non-virtual"><scope>RoundManager::Environment</scope><name>EnemySpawner</name></member>
+      <member refid="class_round_manager_1_1_environment_1a48807fcbcaba6b945990bb68e5448e2c" prot="public" virt="non-virtual"><scope>RoundManager::Environment</scope><name>FloorPrefab</name></member>
+      <member refid="class_round_manager_1_1_environment_1afbc7d245df23cffaa548dc0259cda3fa" prot="public" virt="non-virtual"><scope>RoundManager::Environment</scope><name>FloorSprites</name></member>
+      <member refid="class_round_manager_1_1_environment_1a976f982c5c465988cd4b988745d207f3" prot="public" virt="non-virtual"><scope>RoundManager::Environment</scope><name>GenerateFloor</name></member>
+      <member refid="class_round_manager_1_1_environment_1abbcc2ba8def0468f4f9faab65eaca2f3" prot="private" virt="non-virtual"><scope>RoundManager::Environment</scope><name>GetTileHeight</name></member>
+      <member refid="class_round_manager_1_1_environment_1a23f9a4202a159b06e8c4dd950871a347" prot="private" virt="non-virtual"><scope>RoundManager::Environment</scope><name>GetTileWidth</name></member>
+      <member refid="class_round_manager_1_1_environment_1a8468aa007e7ae5dc3144d3f861d2c368" prot="private" virt="non-virtual"><scope>RoundManager::Environment</scope><name>HasFloorSpriteOptions</name></member>
+      <member refid="class_round_manager_1_1_environment_1a16607a83616387641c46f2a9bb4b314c" prot="public" virt="non-virtual"><scope>RoundManager::Environment</scope><name>ObjectSpawner</name></member>
+      <member refid="class_round_manager_1_1_environment_1aa1067665c1fb00a33bc71852e5326b4d" prot="public" virt="non-virtual"><scope>RoundManager::Environment</scope><name>RoomSize</name></member>
+      <member refid="class_round_manager_1_1_environment_1a11e45e516f093a89e48e9f38c63ff470" prot="private" virt="non-virtual"><scope>RoundManager::Environment</scope><name>UpdateCellSprite</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

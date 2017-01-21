@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_round_manager_1_1_background_audio" kind="class" language="C#" prot="public">
+    <compoundname>RoundManager::BackgroundAudio</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_background_audio_1a835e048dc5976e571c92d458a4efef53" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RoundManager.BackgroundAudio.RoundNumber</definition>
+        <argsstring></argsstring>
+        <name>RoundNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudio.cs" line="13" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudio.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_background_audio_1ae8334ad2034498e87d596e66242d0bff" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip RoundManager.BackgroundAudio.Audio</definition>
+        <argsstring></argsstring>
+        <name>Audio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudio.cs" line="14" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudio.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Used by <ref refid="class_round_manager_1_1_background_audio_change_on_new_round" kindref="compound">BackgroundAudioChangeOnNewRound</ref>. Defines audio clips to play and their associated round number defining when to start the clip. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudio.cs" line="12" column="1" bodyfile="Round System/Scripts/Demo Scripts/Event Examples/Audio/Background Audio/BackgroundAudio.cs" bodystart="11" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_round_manager_1_1_background_audio_1ae8334ad2034498e87d596e66242d0bff" prot="public" virt="non-virtual"><scope>RoundManager::BackgroundAudio</scope><name>Audio</name></member>
+      <member refid="class_round_manager_1_1_background_audio_1a835e048dc5976e571c92d458a4efef53" prot="public" virt="non-virtual"><scope>RoundManager::BackgroundAudio</scope><name>RoundNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

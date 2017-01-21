@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_round_manager_1_1_lerp_over_time" kind="class" language="C#" prot="public">
+    <compoundname>RoundManager::LerpOverTime</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_lerp_over_time_1a5146074fc9101787938248fa2a147851" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RoundManager.LerpOverTime.startTime</definition>
+        <argsstring></argsstring>
+        <name>startTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/LerpOverTIme.cs" line="11" column="1" bodyfile="Round System/Scripts/_Round System/LerpOverTIme.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_lerp_over_time_1aba6916f33e98fe8d0bcda8d904b8fb7c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RoundManager.LerpOverTime.t</definition>
+        <argsstring></argsstring>
+        <name>t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/LerpOverTIme.cs" line="13" column="1" bodyfile="Round System/Scripts/_Round System/LerpOverTIme.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_lerp_over_time_1a10bae2bb542f0e24a32ec2c246b51d66" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RoundManager.LerpOverTime.f</definition>
+        <argsstring></argsstring>
+        <name>f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/LerpOverTIme.cs" line="14" column="1" bodyfile="Round System/Scripts/_Round System/LerpOverTIme.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_lerp_over_time_1abd85c7a8e1ba04a88a312ac27a0ba1e9" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RoundManager.LerpOverTime.d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/LerpOverTIme.cs" line="15" column="1" bodyfile="Round System/Scripts/_Round System/LerpOverTIme.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_lerp_over_time_1abb4724e2aba6356293ada62e7dac563b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RoundManager.LerpOverTime.started</definition>
+        <argsstring></argsstring>
+        <name>started</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/LerpOverTIme.cs" line="17" column="1" bodyfile="Round System/Scripts/_Round System/LerpOverTIme.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_round_manager_1_1_lerp_over_time_1a5af36cea00691c5bd53886c8ae967ed3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float RoundManager.LerpOverTime.ElapsedTime</definition>
+        <argsstring></argsstring>
+        <name>ElapsedTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/LerpOverTIme.cs" line="19" column="1" bodyfile="Round System/Scripts/_Round System/LerpOverTIme.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_round_manager_1_1_lerp_over_time_1af08cee578d3b1f907bf4b273a6cb564e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float RoundManager.LerpOverTime.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+<para>Current lerped value. </para>        </briefdescription>
+        <detaileddescription>
+<para>The value.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/LerpOverTIme.cs" line="32" column="1" bodyfile="Round System/Scripts/_Round System/LerpOverTIme.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_round_manager_1_1_lerp_over_time_1a586062c8728a163c33f6c445f5a9fe22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RoundManager.LerpOverTime.LerpOverTime</definition>
+        <argsstring>(float from, float to, float duration)</argsstring>
+        <name>LerpOverTime</name>
+        <param>
+          <type>float</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>duration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/LerpOverTIme.cs" line="41" column="1" bodyfile="Round System/Scripts/_Round System/LerpOverTIme.cs" bodystart="41" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_lerp_over_time_1a4f363c3847a770901a1cf68a52b4389a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.LerpOverTime.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/LerpOverTIme.cs" line="48" column="1" bodyfile="Round System/Scripts/_Round System/LerpOverTIme.cs" bodystart="48" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Lerp from one float to another over time. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Round System/Scripts/_Round System/LerpOverTIme.cs" line="10" column="1" bodyfile="Round System/Scripts/_Round System/LerpOverTIme.cs" bodystart="9" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_round_manager_1_1_lerp_over_time_1abd85c7a8e1ba04a88a312ac27a0ba1e9" prot="private" virt="non-virtual"><scope>RoundManager::LerpOverTime</scope><name>d</name></member>
+      <member refid="class_round_manager_1_1_lerp_over_time_1a5af36cea00691c5bd53886c8ae967ed3" prot="public" virt="non-virtual"><scope>RoundManager::LerpOverTime</scope><name>ElapsedTime</name></member>
+      <member refid="class_round_manager_1_1_lerp_over_time_1a10bae2bb542f0e24a32ec2c246b51d66" prot="private" virt="non-virtual"><scope>RoundManager::LerpOverTime</scope><name>f</name></member>
+      <member refid="class_round_manager_1_1_lerp_over_time_1a586062c8728a163c33f6c445f5a9fe22" prot="public" virt="non-virtual"><scope>RoundManager::LerpOverTime</scope><name>LerpOverTime</name></member>
+      <member refid="class_round_manager_1_1_lerp_over_time_1a4f363c3847a770901a1cf68a52b4389a" prot="public" virt="non-virtual"><scope>RoundManager::LerpOverTime</scope><name>Start</name></member>
+      <member refid="class_round_manager_1_1_lerp_over_time_1abb4724e2aba6356293ada62e7dac563b" prot="private" virt="non-virtual"><scope>RoundManager::LerpOverTime</scope><name>started</name></member>
+      <member refid="class_round_manager_1_1_lerp_over_time_1a5146074fc9101787938248fa2a147851" prot="private" virt="non-virtual"><scope>RoundManager::LerpOverTime</scope><name>startTime</name></member>
+      <member refid="class_round_manager_1_1_lerp_over_time_1aba6916f33e98fe8d0bcda8d904b8fb7c" prot="private" virt="non-virtual"><scope>RoundManager::LerpOverTime</scope><name>t</name></member>
+      <member refid="class_round_manager_1_1_lerp_over_time_1af08cee578d3b1f907bf4b273a6cb564e" prot="public" virt="non-virtual"><scope>RoundManager::LerpOverTime</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

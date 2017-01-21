@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="namespace_round_manager_1_1_events" kind="namespace" language="C#">
+    <compoundname>RoundManager::Events</compoundname>
+    <innerclass refid="class_round_manager_1_1_events_1_1_boss_countdown_begun_event" prot="public">RoundManager::Events::BossCountdownBegunEvent</innerclass>
+    <innerclass refid="class_round_manager_1_1_events_1_1_boss_killed_event" prot="public">RoundManager::Events::BossKilledEvent</innerclass>
+    <innerclass refid="class_round_manager_1_1_events_1_1_boss_spawned_event" prot="public">RoundManager::Events::BossSpawnedEvent</innerclass>
+    <innerclass refid="class_round_manager_1_1_events_1_1_boss_spawn_request_event" prot="public">RoundManager::Events::BossSpawnRequestEvent</innerclass>
+    <innerclass refid="class_round_manager_1_1_events_1_1_checkpoint_end_event" prot="public">RoundManager::Events::CheckpointEndEvent</innerclass>
+    <innerclass refid="class_round_manager_1_1_events_1_1_checkpoint_start_event" prot="public">RoundManager::Events::CheckpointStartEvent</innerclass>
+    <innerclass refid="class_round_manager_1_1_events_1_1_destroy_current_enemies_request_event" prot="public">RoundManager::Events::DestroyCurrentEnemiesRequestEvent</innerclass>
+    <innerclass refid="class_round_manager_1_1_events_1_1_enemy_spawn_request_event" prot="public">RoundManager::Events::EnemySpawnRequestEvent</innerclass>
+    <innerclass refid="class_round_manager_1_1_events_1_1_finished_rounds_event" prot="public">RoundManager::Events::FinishedRoundsEvent</innerclass>
+    <innerclass refid="class_round_manager_1_1_events_1_1_first_round_event" prot="public">RoundManager::Events::FirstRoundEvent</innerclass>
+    <innerclass refid="class_round_manager_1_1_events_1_1_last_round_event" prot="public">RoundManager::Events::LastRoundEvent</innerclass>
+    <innerclass refid="class_round_manager_1_1_events_1_1_object_spawn_request_event" prot="public">RoundManager::Events::ObjectSpawnRequestEvent</innerclass>
+    <innerclass refid="class_round_manager_1_1_events_1_1_preperation_end_event" prot="public">RoundManager::Events::PreperationEndEvent</innerclass>
+    <innerclass refid="class_round_manager_1_1_events_1_1_preperation_start_event" prot="public">RoundManager::Events::PreperationStartEvent</innerclass>
+    <innerclass refid="class_round_manager_1_1_events_1_1_round_end_event" prot="public">RoundManager::Events::RoundEndEvent</innerclass>
+    <innerclass refid="class_round_manager_1_1_events_1_1_round_event" prot="public">RoundManager::Events::RoundEvent</innerclass>
+    <innerclass refid="class_round_manager_1_1_events_1_1_round_events" prot="public">RoundManager::Events::RoundEvents</innerclass>
+    <innerclass refid="class_round_manager_1_1_events_1_1_round_start_event" prot="public">RoundManager::Events::RoundStartEvent</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Round System/Scripts/_Round System/Event System/Individual Events/Boss Events/BossCountdownBegunEvent.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

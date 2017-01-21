@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="dir_9bacd48acd3acf4f011ef0b621b2935d" kind="dir">
+    <compoundname>Round System/Scripts/_Round System/Event System/_Templates/Enemy Events</compoundname>
+    <innerfile refid="_destroy_current_enemies_request_8cs">DestroyCurrentEnemiesRequest.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Round System/Scripts/_Round System/Event System/_Templates/Enemy Events/"/>
+  </compounddef>
+</doxygen>

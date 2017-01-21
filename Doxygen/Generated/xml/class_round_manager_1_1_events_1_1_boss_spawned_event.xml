@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_round_manager_1_1_events_1_1_boss_spawned_event" kind="class" language="C#" prot="public">
+    <compoundname>RoundManager::Events::BossSpawnedEvent</compoundname>
+    <basecompoundref refid="class_round_manager_1_1_events_1_1_round_event" prot="public" virt="non-virtual">RoundManager.Events.RoundEvent</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_events_1_1_boss_spawned_event_1ac57d2617442cbbcfbcce409221bf5a74" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject RoundManager.Events.BossSpawnedEvent._boss</definition>
+        <argsstring></argsstring>
+        <name>_boss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/Individual Events/Boss Events/BossSpawnedEvent.cs" line="14" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Boss Events/BossSpawnedEvent.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_events_1_1_boss_spawned_event_1a5c4d08645e0ff3b460884c5db2a9666a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_round_manager_1_1_round" kindref="compound">Round</ref></type>
+        <definition>Round RoundManager.Events.BossSpawnedEvent._currentRound</definition>
+        <argsstring></argsstring>
+        <name>_currentRound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/Individual Events/Boss Events/BossSpawnedEvent.cs" line="21" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Boss Events/BossSpawnedEvent.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_round_manager_1_1_events_1_1_boss_spawned_event_1a88f4a76cb98707bc7461af40bdd46936" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>GameObject</type>
+        <definition>GameObject RoundManager.Events.BossSpawnedEvent.Boss</definition>
+        <argsstring></argsstring>
+        <name>Boss</name>
+        <briefdescription>
+<para>Returns the instantiated boss. </para>        </briefdescription>
+        <detaileddescription>
+<para>The boss.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/Individual Events/Boss Events/BossSpawnedEvent.cs" line="19" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Boss Events/BossSpawnedEvent.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_round_manager_1_1_events_1_1_boss_spawned_event_1a48df73916740e74e6b8ac32fb411bc3c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_round_manager_1_1_round" kindref="compound">Round</ref></type>
+        <definition>Round RoundManager.Events.BossSpawnedEvent.CurrentRound</definition>
+        <argsstring></argsstring>
+        <name>CurrentRound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/Individual Events/Boss Events/BossSpawnedEvent.cs" line="22" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Boss Events/BossSpawnedEvent.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_round_manager_1_1_events_1_1_boss_spawned_event_1a0a7a4896c3de232fdedb5721e7ab0f53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RoundManager.Events.BossSpawnedEvent.BossSpawnedEvent</definition>
+        <argsstring>(Round currentRound, GameObject boss)</argsstring>
+        <name>BossSpawnedEvent</name>
+        <param>
+          <type><ref refid="class_round_manager_1_1_round" kindref="compound">Round</ref></type>
+          <declname>currentRound</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>boss</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/Individual Events/Boss Events/BossSpawnedEvent.cs" line="24" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Boss Events/BossSpawnedEvent.cs" bodystart="24" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Raised when a boss is spawned. See <ref refid="class_round_manager_1_1_boss_spawned" kindref="compound">BossSpawned</ref> for a template of how to react to this event. The event is currently raised in <ref refid="class_round_manager_1_1_enemy_spawner" kindref="compound">EnemySpawner</ref>. If you want to react to this event, and you are using a custom boss spawner then ensure that the event is raised when a boss is spawned. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="39">
+        <label>RoundManager.Events.BossSpawnedEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_boss_spawned_event"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>RoundEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_round_event"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="41">
+        <label>RoundManager.Events.BossSpawnedEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_boss_spawned_event"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>RoundEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_round_event"/>
+      </node>
+    </collaborationgraph>
+    <location file="Round System/Scripts/_Round System/Event System/Individual Events/Boss Events/BossSpawnedEvent.cs" line="13" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Boss Events/BossSpawnedEvent.cs" bodystart="12" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_round_manager_1_1_events_1_1_boss_spawned_event_1ac57d2617442cbbcfbcce409221bf5a74" prot="private" virt="non-virtual"><scope>RoundManager::Events::BossSpawnedEvent</scope><name>_boss</name></member>
+      <member refid="class_round_manager_1_1_events_1_1_boss_spawned_event_1a5c4d08645e0ff3b460884c5db2a9666a" prot="private" virt="non-virtual"><scope>RoundManager::Events::BossSpawnedEvent</scope><name>_currentRound</name></member>
+      <member refid="class_round_manager_1_1_events_1_1_boss_spawned_event_1a88f4a76cb98707bc7461af40bdd46936" prot="public" virt="non-virtual"><scope>RoundManager::Events::BossSpawnedEvent</scope><name>Boss</name></member>
+      <member refid="class_round_manager_1_1_events_1_1_boss_spawned_event_1a0a7a4896c3de232fdedb5721e7ab0f53" prot="public" virt="non-virtual"><scope>RoundManager::Events::BossSpawnedEvent</scope><name>BossSpawnedEvent</name></member>
+      <member refid="class_round_manager_1_1_events_1_1_boss_spawned_event_1a48df73916740e74e6b8ac32fb411bc3c" prot="public" virt="non-virtual"><scope>RoundManager::Events::BossSpawnedEvent</scope><name>CurrentRound</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

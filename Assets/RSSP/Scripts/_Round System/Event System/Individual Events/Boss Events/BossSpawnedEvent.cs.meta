@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1ad687217978b443b8dd8becb2ff62b6
+labels:
+- Boss
+- Spawn
+- Spawned
+timeCreated: 1436965583
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

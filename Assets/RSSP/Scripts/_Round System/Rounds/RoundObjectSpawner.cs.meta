@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: dfa681b166c4f4154817c1128a527d74
+labels:
+- RoundObject
+- Spawn
+- Spawner
+timeCreated: 1436257868
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

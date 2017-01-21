@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8eca722bb34844545a1c7505fb3d4855
+labels:
+- Enemy
+- RoundEnemy
+timeCreated: 1441100504
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

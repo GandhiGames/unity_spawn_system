@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_round_manager_1_1_events_1_1_enemy_spawn_request_event" kind="class" language="C#" prot="public">
+    <compoundname>RoundManager::Events::EnemySpawnRequestEvent</compoundname>
+    <basecompoundref refid="class_round_manager_1_1_events_1_1_object_spawn_request_event" prot="public" virt="non-virtual">RoundManager.Events.ObjectSpawnRequestEvent</basecompoundref>
+    <derivedcompoundref refid="class_round_manager_1_1_events_1_1_boss_spawn_request_event" prot="public" virt="non-virtual">RoundManager.Events.BossSpawnRequestEvent</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_round_manager_1_1_events_1_1_enemy_spawn_request_event_1a8d7ee95bbee4bc18d68c4c9aa559a0e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RoundManager.Events.EnemySpawnRequestEvent.EnemySpawnRequestEvent</definition>
+        <argsstring>(Round currentRound, GameObject enemyPrefab)</argsstring>
+        <name>EnemySpawnRequestEvent</name>
+        <param>
+          <type><ref refid="class_round_manager_1_1_round" kindref="compound">Round</ref></type>
+          <declname>currentRound</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>enemyPrefab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/Individual Events/Spawn Request Events/EnemySpawnRequestEvent.cs" line="12" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Spawn Request Events/EnemySpawnRequestEvent.cs" bodystart="12" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Raised when the an enemy should be spawned. See <ref refid="class_round_manager_1_1_enemy_spawn_request" kindref="compound">EnemySpawnRequest</ref> template and <ref refid="class_round_manager_1_1_enemy_spawner" kindref="compound">EnemySpawner</ref> for a concrete example of how to react to the event. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="100">
+        <label>RoundManager.Events.EnemySpawnRequestEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_enemy_spawn_request_event"/>
+        <childnode refid="101" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>RoundEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_round_event"/>
+      </node>
+      <node id="103">
+        <label>RoundManager.Events.BossSpawnRequestEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_boss_spawn_request_event"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>ObjectSpawnRequestEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_object_spawn_request_event"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="104">
+        <label>RoundManager.Events.EnemySpawnRequestEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_enemy_spawn_request_event"/>
+        <childnode refid="105" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="106">
+        <label>RoundEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_round_event"/>
+      </node>
+      <node id="105">
+        <label>ObjectSpawnRequestEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_object_spawn_request_event"/>
+        <childnode refid="106" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Round System/Scripts/_Round System/Event System/Individual Events/Spawn Request Events/EnemySpawnRequestEvent.cs" line="11" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Spawn Request Events/EnemySpawnRequestEvent.cs" bodystart="10" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_round_manager_1_1_events_1_1_object_spawn_request_event_1af899ff20e137b7809be2cf919960ceea" prot="public" virt="non-virtual"><scope>RoundManager::Events::EnemySpawnRequestEvent</scope><name>CurrentRound</name></member>
+      <member refid="class_round_manager_1_1_events_1_1_enemy_spawn_request_event_1a8d7ee95bbee4bc18d68c4c9aa559a0e5" prot="public" virt="non-virtual"><scope>RoundManager::Events::EnemySpawnRequestEvent</scope><name>EnemySpawnRequestEvent</name></member>
+      <member refid="class_round_manager_1_1_events_1_1_object_spawn_request_event_1a8a95244117fcfc697e4299c73dffea64" prot="public" virt="non-virtual"><scope>RoundManager::Events::EnemySpawnRequestEvent</scope><name>ObjectPrefab</name></member>
+      <member refid="class_round_manager_1_1_events_1_1_object_spawn_request_event_1a848eff2303041ab603ae37932cd942b2" prot="public" virt="non-virtual"><scope>RoundManager::Events::EnemySpawnRequestEvent</scope><name>ObjectSpawnRequestEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

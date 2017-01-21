@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="dir_5dca53da95aecabf7911449197c9132e" kind="dir">
+    <compoundname>Round System/Scripts/_Round System/Event System/Individual Events</compoundname>
+    <innerdir refid="dir_e5c276c03b795ade86e896d7d6b1e114">Round System/Scripts/_Round System/Event System/Individual Events/Boss Events</innerdir>
+    <innerdir refid="dir_2343f19bedf627228fbd9ed3e7c69353">Round System/Scripts/_Round System/Event System/Individual Events/Checkpoint Events</innerdir>
+    <innerdir refid="dir_a6a769ad80fb40174aa8804db93de1d9">Round System/Scripts/_Round System/Event System/Individual Events/Enemy Events</innerdir>
+    <innerdir refid="dir_a3f8f3fbd155ed27255fcf34f45333dd">Round System/Scripts/_Round System/Event System/Individual Events/Preperation Events</innerdir>
+    <innerdir refid="dir_aeb63486108503a23ee824abf70c1889">Round System/Scripts/_Round System/Event System/Individual Events/Round Events</innerdir>
+    <innerdir refid="dir_0c68d8e70a89aae05b23e7ba4eac1705">Round System/Scripts/_Round System/Event System/Individual Events/Spawn Request Events</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Round System/Scripts/_Round System/Event System/Individual Events/"/>
+  </compounddef>
+</doxygen>

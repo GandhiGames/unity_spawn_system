@@ -1,0 +1,104 @@
+\hypertarget{class_round_manager_1_1_events_1_1_round_events}{}\section{Round\+Manager.\+Events.\+Round\+Events Class Reference}
+\label{class_round_manager_1_1_events_1_1_round_events}\index{Round\+Manager.\+Events.\+Round\+Events@{Round\+Manager.\+Events.\+Round\+Events}}
+
+
+\hyperlink{class_round_manager_1_1_round}{Round} events.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_round_manager_1_1_events_1_1_round_events_a404697d7bfa1534d64e17e3dc3ecbdf8}{}delegate void {\bfseries Event\+Delegate$<$ T $>$} (T e)\label{class_round_manager_1_1_events_1_1_round_events_a404697d7bfa1534d64e17e3dc3ecbdf8}
+
+\item 
+void \hyperlink{class_round_manager_1_1_events_1_1_round_events_a34bda04dba8f8a5a0fde082a4c2823d3}{Add\+Listener$<$ T $>$} (Event\+Delegate$<$ T $>$ del)
+\begin{DoxyCompactList}\small\item\em Adds listener to be called when event T is called. \end{DoxyCompactList}\item 
+void \hyperlink{class_round_manager_1_1_events_1_1_round_events_a3275fd627fca28d6ffdea7c9eb0e56a2}{Remove\+Listener$<$ T $>$} (Event\+Delegate$<$ T $>$ del)
+\begin{DoxyCompactList}\small\item\em Removes listener for event T. \end{DoxyCompactList}\item 
+void \hyperlink{class_round_manager_1_1_events_1_1_round_events_a477082a157f8299656ecae23ff0374b6}{Raise} (\hyperlink{class_round_manager_1_1_events_1_1_round_event}{Round\+Event} e)
+\begin{DoxyCompactList}\small\item\em Raise the specified event e. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_round_manager_1_1_events_1_1_round_events_a94365cd37c47643872a276fe8d476e95}{}static \hyperlink{class_round_manager_1_1_events_1_1_round_events}{Round\+Events} {\bfseries Instance}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}\label{class_round_manager_1_1_events_1_1_round_events_a94365cd37c47643872a276fe8d476e95}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_round_manager_1_1_round}{Round} events. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_round_manager_1_1_events_1_1_round_events_a34bda04dba8f8a5a0fde082a4c2823d3}{}\index{Round\+Manager\+::\+Events\+::\+Round\+Events@{Round\+Manager\+::\+Events\+::\+Round\+Events}!Add\+Listener$<$ T $>$@{Add\+Listener$<$ T $>$}}
+\index{Add\+Listener$<$ T $>$@{Add\+Listener$<$ T $>$}!Round\+Manager\+::\+Events\+::\+Round\+Events@{Round\+Manager\+::\+Events\+::\+Round\+Events}}
+\subsubsection[{Add\+Listener$<$ T $>$(\+Event\+Delegate$<$ T $>$ del)}]{\setlength{\rightskip}{0pt plus 5cm}void Round\+Manager.\+Events.\+Round\+Events.\+Add\+Listener$<$ T $>$ (
+\begin{DoxyParamCaption}
+\item[{Event\+Delegate$<$ T $>$}]{del}
+\end{DoxyParamCaption}
+)}\label{class_round_manager_1_1_events_1_1_round_events_a34bda04dba8f8a5a0fde082a4c2823d3}
+
+
+Adds listener to be called when event T is called. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em del} & Del.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & The 1st type parameter.\\
+\hline
+\end{DoxyTemplParams}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em Round\+Event}]\end{description}
+\end{Desc}
+\hypertarget{class_round_manager_1_1_events_1_1_round_events_a477082a157f8299656ecae23ff0374b6}{}\index{Round\+Manager\+::\+Events\+::\+Round\+Events@{Round\+Manager\+::\+Events\+::\+Round\+Events}!Raise@{Raise}}
+\index{Raise@{Raise}!Round\+Manager\+::\+Events\+::\+Round\+Events@{Round\+Manager\+::\+Events\+::\+Round\+Events}}
+\subsubsection[{Raise(\+Round\+Event e)}]{\setlength{\rightskip}{0pt plus 5cm}void Round\+Manager.\+Events.\+Round\+Events.\+Raise (
+\begin{DoxyParamCaption}
+\item[{{\bf Round\+Event}}]{e}
+\end{DoxyParamCaption}
+)}\label{class_round_manager_1_1_events_1_1_round_events_a477082a157f8299656ecae23ff0374b6}
+
+
+Raise the specified event e. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & E.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_round_manager_1_1_events_1_1_round_events_a3275fd627fca28d6ffdea7c9eb0e56a2}{}\index{Round\+Manager\+::\+Events\+::\+Round\+Events@{Round\+Manager\+::\+Events\+::\+Round\+Events}!Remove\+Listener$<$ T $>$@{Remove\+Listener$<$ T $>$}}
+\index{Remove\+Listener$<$ T $>$@{Remove\+Listener$<$ T $>$}!Round\+Manager\+::\+Events\+::\+Round\+Events@{Round\+Manager\+::\+Events\+::\+Round\+Events}}
+\subsubsection[{Remove\+Listener$<$ T $>$(\+Event\+Delegate$<$ T $>$ del)}]{\setlength{\rightskip}{0pt plus 5cm}void Round\+Manager.\+Events.\+Round\+Events.\+Remove\+Listener$<$ T $>$ (
+\begin{DoxyParamCaption}
+\item[{Event\+Delegate$<$ T $>$}]{del}
+\end{DoxyParamCaption}
+)}\label{class_round_manager_1_1_events_1_1_round_events_a3275fd627fca28d6ffdea7c9eb0e56a2}
+
+
+Removes listener for event T. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em del} & Del.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & The 1st type parameter.\\
+\hline
+\end{DoxyTemplParams}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em Round\+Event}]\end{description}
+\end{Desc}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Round System/\+Scripts/\+\_\+\+Round System/\+Event System/Round\+Events.\+cs\end{DoxyCompactItemize}

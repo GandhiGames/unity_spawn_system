@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_round_manager_1_1_enemy_health" kind="class" language="C#" prot="public">
+    <compoundname>RoundManager::EnemyHealth</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_enemy_health_1adb176d5ece30812f53bea7beeab6f266" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RoundManager.EnemyHealth.MaxHealth</definition>
+        <argsstring></argsstring>
+        <name>MaxHealth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/EnemyHealth.cs" line="12" column="1" bodyfile="Round System/Scripts/Demo Scripts/EnemyHealth.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_enemy_health_1aaaff55d130d54c850d8e0fb194103101" prot="public" static="no" mutable="no">
+        <type>AudioClip[]</type>
+        <definition>AudioClip [] RoundManager.EnemyHealth.OnHitSounds</definition>
+        <argsstring></argsstring>
+        <name>OnHitSounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/EnemyHealth.cs" line="13" column="1" bodyfile="Round System/Scripts/Demo Scripts/EnemyHealth.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_enemy_health_1a0e1b97bf36fc455c07b9c5563e6ccf17" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject RoundManager.EnemyHealth.OnDeadAnimation</definition>
+        <argsstring></argsstring>
+        <name>OnDeadAnimation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/EnemyHealth.cs" line="14" column="1" bodyfile="Round System/Scripts/Demo Scripts/EnemyHealth.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_enemy_health_1a17db80b5f15cb11d30518a18de9a0281" prot="public" static="no" mutable="no">
+        <type>GameObject[]</type>
+        <definition>GameObject [] RoundManager.EnemyHealth.OnDeadSprites</definition>
+        <argsstring></argsstring>
+        <name>OnDeadSprites</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/EnemyHealth.cs" line="15" column="1" bodyfile="Round System/Scripts/Demo Scripts/EnemyHealth.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_enemy_health_1abc7b11795287564a0c777334eec0ed3a" prot="public" static="no" mutable="no">
+        <type>GameObject[]</type>
+        <definition>GameObject [] RoundManager.EnemyHealth.CollectiblesPrefabs</definition>
+        <argsstring></argsstring>
+        <name>CollectiblesPrefabs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/EnemyHealth.cs" line="16" column="1" bodyfile="Round System/Scripts/Demo Scripts/EnemyHealth.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_enemy_health_1a384823558355c1b872f9f77a838b72e0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RoundManager.EnemyHealth.MinCollectiblesDropped</definition>
+        <argsstring></argsstring>
+        <name>MinCollectiblesDropped</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/EnemyHealth.cs" line="17" column="1" bodyfile="Round System/Scripts/Demo Scripts/EnemyHealth.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_enemy_health_1ab4d07023bd90d039f21900f29028957e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RoundManager.EnemyHealth.MaxCollectiblesDropped</definition>
+        <argsstring></argsstring>
+        <name>MaxCollectiblesDropped</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/EnemyHealth.cs" line="18" column="1" bodyfile="Round System/Scripts/Demo Scripts/EnemyHealth.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_enemy_health_1a11adc5c9d7741527b5451b0bcbe88de0" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource RoundManager.EnemyHealth._audio</definition>
+        <argsstring></argsstring>
+        <name>_audio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/EnemyHealth.cs" line="21" column="1" bodyfile="Round System/Scripts/Demo Scripts/EnemyHealth.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_round_manager_1_1_enemy_health_1a12a1fd3e0009c16a706fe06e2e696d39" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RoundManager.EnemyHealth._currentHealth</definition>
+        <argsstring></argsstring>
+        <name>_currentHealth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/EnemyHealth.cs" line="22" column="1" bodyfile="Round System/Scripts/Demo Scripts/EnemyHealth.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_round_manager_1_1_enemy_health_1ac7d246276f85c67aa64aeb61575d44fc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.EnemyHealth.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/EnemyHealth.cs" line="24" column="1" bodyfile="Round System/Scripts/Demo Scripts/EnemyHealth.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_enemy_health_1a82a337f57a9697041f57c11c5e6cba83" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.EnemyHealth.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/EnemyHealth.cs" line="29" column="1" bodyfile="Round System/Scripts/Demo Scripts/EnemyHealth.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_enemy_health_1aa27338ac241a33b1b8cd62579cbe1f43" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.EnemyHealth.PlayHitSound</definition>
+        <argsstring>()</argsstring>
+        <name>PlayHitSound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/EnemyHealth.cs" line="66" column="1" bodyfile="Round System/Scripts/Demo Scripts/EnemyHealth.cs" bodystart="66" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_round_manager_1_1_enemy_health_1a3d5bc94b8deb7e985d22e8fcaa70100d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.EnemyHealth.OnHit</definition>
+        <argsstring>(int amount)</argsstring>
+        <name>OnHit</name>
+        <param>
+          <type>int</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/EnemyHealth.cs" line="34" column="1" bodyfile="Round System/Scripts/Demo Scripts/EnemyHealth.cs" bodystart="34" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_enemy_health_1a74b7cb053c7a612802cc37bb572f4538" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.EnemyHealth.OnDead</definition>
+        <argsstring>()</argsstring>
+        <name>OnDead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/Demo Scripts/EnemyHealth.cs" line="44" column="1" bodyfile="Round System/Scripts/Demo Scripts/EnemyHealth.cs" bodystart="44" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Example enemy health script. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="86">
+        <label>RoundManager.EnemyHealth</label>
+        <link refid="class_round_manager_1_1_enemy_health"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="88">
+        <label>RoundManager.EnemyHealth</label>
+        <link refid="class_round_manager_1_1_enemy_health"/>
+        <childnode refid="89" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Round System/Scripts/Demo Scripts/EnemyHealth.cs" line="11" column="1" bodyfile="Round System/Scripts/Demo Scripts/EnemyHealth.cs" bodystart="10" bodyend="71"/>
+    <listofallmembers>
+      <member refid="class_round_manager_1_1_enemy_health_1a11adc5c9d7741527b5451b0bcbe88de0" prot="private" virt="non-virtual"><scope>RoundManager::EnemyHealth</scope><name>_audio</name></member>
+      <member refid="class_round_manager_1_1_enemy_health_1a12a1fd3e0009c16a706fe06e2e696d39" prot="private" virt="non-virtual"><scope>RoundManager::EnemyHealth</scope><name>_currentHealth</name></member>
+      <member refid="class_round_manager_1_1_enemy_health_1ac7d246276f85c67aa64aeb61575d44fc" prot="private" virt="non-virtual"><scope>RoundManager::EnemyHealth</scope><name>Awake</name></member>
+      <member refid="class_round_manager_1_1_enemy_health_1abc7b11795287564a0c777334eec0ed3a" prot="public" virt="non-virtual"><scope>RoundManager::EnemyHealth</scope><name>CollectiblesPrefabs</name></member>
+      <member refid="class_round_manager_1_1_enemy_health_1ab4d07023bd90d039f21900f29028957e" prot="public" virt="non-virtual"><scope>RoundManager::EnemyHealth</scope><name>MaxCollectiblesDropped</name></member>
+      <member refid="class_round_manager_1_1_enemy_health_1adb176d5ece30812f53bea7beeab6f266" prot="public" virt="non-virtual"><scope>RoundManager::EnemyHealth</scope><name>MaxHealth</name></member>
+      <member refid="class_round_manager_1_1_enemy_health_1a384823558355c1b872f9f77a838b72e0" prot="public" virt="non-virtual"><scope>RoundManager::EnemyHealth</scope><name>MinCollectiblesDropped</name></member>
+      <member refid="class_round_manager_1_1_enemy_health_1a74b7cb053c7a612802cc37bb572f4538" prot="public" virt="non-virtual"><scope>RoundManager::EnemyHealth</scope><name>OnDead</name></member>
+      <member refid="class_round_manager_1_1_enemy_health_1a0e1b97bf36fc455c07b9c5563e6ccf17" prot="public" virt="non-virtual"><scope>RoundManager::EnemyHealth</scope><name>OnDeadAnimation</name></member>
+      <member refid="class_round_manager_1_1_enemy_health_1a17db80b5f15cb11d30518a18de9a0281" prot="public" virt="non-virtual"><scope>RoundManager::EnemyHealth</scope><name>OnDeadSprites</name></member>
+      <member refid="class_round_manager_1_1_enemy_health_1a82a337f57a9697041f57c11c5e6cba83" prot="private" virt="non-virtual"><scope>RoundManager::EnemyHealth</scope><name>OnEnable</name></member>
+      <member refid="class_round_manager_1_1_enemy_health_1a3d5bc94b8deb7e985d22e8fcaa70100d" prot="public" virt="non-virtual"><scope>RoundManager::EnemyHealth</scope><name>OnHit</name></member>
+      <member refid="class_round_manager_1_1_enemy_health_1aaaff55d130d54c850d8e0fb194103101" prot="public" virt="non-virtual"><scope>RoundManager::EnemyHealth</scope><name>OnHitSounds</name></member>
+      <member refid="class_round_manager_1_1_enemy_health_1aa27338ac241a33b1b8cd62579cbe1f43" prot="private" virt="non-virtual"><scope>RoundManager::EnemyHealth</scope><name>PlayHitSound</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

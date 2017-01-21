@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_round_manager_1_1_events_1_1_destroy_current_enemies_request_event" kind="class" language="C#" prot="public">
+    <compoundname>RoundManager::Events::DestroyCurrentEnemiesRequestEvent</compoundname>
+    <basecompoundref refid="class_round_manager_1_1_events_1_1_round_event" prot="public" virt="non-virtual">RoundManager.Events.RoundEvent</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_events_1_1_destroy_current_enemies_request_event_1a6cab256353d12c1536c728b3e7994a24" prot="private" static="no" mutable="no">
+        <type><ref refid="class_round_manager_1_1_round" kindref="compound">Round</ref></type>
+        <definition>Round RoundManager.Events.DestroyCurrentEnemiesRequestEvent._currentRound</definition>
+        <argsstring></argsstring>
+        <name>_currentRound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/Individual Events/Enemy Events/DestroyCurrentEnemiesRequestEvent.cs" line="13" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Enemy Events/DestroyCurrentEnemiesRequestEvent.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_round_manager_1_1_events_1_1_destroy_current_enemies_request_event_1a0ecf1401856fc8cf0ed4763d08816149" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_round_manager_1_1_round" kindref="compound">Round</ref></type>
+        <definition>Round RoundManager.Events.DestroyCurrentEnemiesRequestEvent.CurrentRound</definition>
+        <argsstring></argsstring>
+        <name>CurrentRound</name>
+        <briefdescription>
+<para>Gets the current round that raised this event. </para>        </briefdescription>
+        <detaileddescription>
+<para>The current round.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/Individual Events/Enemy Events/DestroyCurrentEnemiesRequestEvent.cs" line="18" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Enemy Events/DestroyCurrentEnemiesRequestEvent.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_round_manager_1_1_events_1_1_destroy_current_enemies_request_event_1a82b536d8881e330f2ef9a2ca92c00063" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RoundManager.Events.DestroyCurrentEnemiesRequestEvent.DestroyCurrentEnemiesRequestEvent</definition>
+        <argsstring>(Round currentRound)</argsstring>
+        <name>DestroyCurrentEnemiesRequestEvent</name>
+        <param>
+          <type><ref refid="class_round_manager_1_1_round" kindref="compound">Round</ref></type>
+          <declname>currentRound</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/Individual Events/Enemy Events/DestroyCurrentEnemiesRequestEvent.cs" line="20" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Enemy Events/DestroyCurrentEnemiesRequestEvent.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Raised to signify that all currently spawned enemies should be destroyed. See <ref refid="class_round_manager_1_1_destroy_current_enemies_request" kindref="compound">DestroyCurrentEnemiesRequest</ref> template and <ref refid="class_round_manager_1_1_enemy_spawner" kindref="compound">EnemySpawner</ref> for a concrete example of how to react to this event. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="75">
+        <label>RoundManager.Events.DestroyCurrentEnemiesRequestEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_destroy_current_enemies_request_event"/>
+        <childnode refid="76" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>RoundEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_round_event"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="77">
+        <label>RoundManager.Events.DestroyCurrentEnemiesRequestEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_destroy_current_enemies_request_event"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>RoundEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_round_event"/>
+      </node>
+    </collaborationgraph>
+    <location file="Round System/Scripts/_Round System/Event System/Individual Events/Enemy Events/DestroyCurrentEnemiesRequestEvent.cs" line="12" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Enemy Events/DestroyCurrentEnemiesRequestEvent.cs" bodystart="11" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_round_manager_1_1_events_1_1_destroy_current_enemies_request_event_1a6cab256353d12c1536c728b3e7994a24" prot="private" virt="non-virtual"><scope>RoundManager::Events::DestroyCurrentEnemiesRequestEvent</scope><name>_currentRound</name></member>
+      <member refid="class_round_manager_1_1_events_1_1_destroy_current_enemies_request_event_1a0ecf1401856fc8cf0ed4763d08816149" prot="public" virt="non-virtual"><scope>RoundManager::Events::DestroyCurrentEnemiesRequestEvent</scope><name>CurrentRound</name></member>
+      <member refid="class_round_manager_1_1_events_1_1_destroy_current_enemies_request_event_1a82b536d8881e330f2ef9a2ca92c00063" prot="public" virt="non-virtual"><scope>RoundManager::Events::DestroyCurrentEnemiesRequestEvent</scope><name>DestroyCurrentEnemiesRequestEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

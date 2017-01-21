@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="dir_6f337f7150b4e774009c79dcfb9e2572" kind="dir">
+    <compoundname>Round System/Scripts/_Round System/Event System/_Templates/Spawn Request Events</compoundname>
+    <innerfile refid="_boss_spawn_request_8cs">BossSpawnRequest.cs</innerfile>
+    <innerfile refid="_enemy_spawn_request_8cs">EnemySpawnRequest.cs</innerfile>
+    <innerfile refid="_object_spawn_request_8cs">ObjectSpawnRequest.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Round System/Scripts/_Round System/Event System/_Templates/Spawn Request Events/"/>
+  </compounddef>
+</doxygen>

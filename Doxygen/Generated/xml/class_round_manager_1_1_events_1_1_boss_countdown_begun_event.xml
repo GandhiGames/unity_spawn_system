@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_round_manager_1_1_events_1_1_boss_countdown_begun_event" kind="class" language="C#" prot="public">
+    <compoundname>RoundManager::Events::BossCountdownBegunEvent</compoundname>
+    <basecompoundref refid="class_round_manager_1_1_events_1_1_round_event" prot="public" virt="non-virtual">RoundManager.Events.RoundEvent</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_events_1_1_boss_countdown_begun_event_1aa0a3a129d8e8b3e5782e8521de061a74" prot="private" static="no" mutable="no">
+        <type><ref refid="class_round_manager_1_1_round" kindref="compound">Round</ref></type>
+        <definition>Round RoundManager.Events.BossCountdownBegunEvent._currentRound</definition>
+        <argsstring></argsstring>
+        <name>_currentRound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/Individual Events/Boss Events/BossCountdownBegunEvent.cs" line="12" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Boss Events/BossCountdownBegunEvent.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_round_manager_1_1_events_1_1_boss_countdown_begun_event_1ab222f79d5e16d452c0da7b5b8ba19a79" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_round_manager_1_1_round" kindref="compound">Round</ref></type>
+        <definition>Round RoundManager.Events.BossCountdownBegunEvent.CurrentRound</definition>
+        <argsstring></argsstring>
+        <name>CurrentRound</name>
+        <briefdescription>
+<para>Gets the current round that raised this event. </para>        </briefdescription>
+        <detaileddescription>
+<para>The current round.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/Individual Events/Boss Events/BossCountdownBegunEvent.cs" line="18" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Boss Events/BossCountdownBegunEvent.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_round_manager_1_1_events_1_1_boss_countdown_begun_event_1aa3f4c1d1f3b59180d5dec019c72ab4c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RoundManager.Events.BossCountdownBegunEvent.BossCountdownBegunEvent</definition>
+        <argsstring>(Round currentRound)</argsstring>
+        <name>BossCountdownBegunEvent</name>
+        <param>
+          <type><ref refid="class_round_manager_1_1_round" kindref="compound">Round</ref></type>
+          <declname>currentRound</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/Individual Events/Boss Events/BossCountdownBegunEvent.cs" line="20" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Boss Events/BossCountdownBegunEvent.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Raised when the boss countdown begins. See <ref refid="class_round_manager_1_1_boss_countdown_begun" kindref="compound">BossCountdownBegun</ref> template and <ref refid="class_round_manager_1_1_boss_countdown_text" kindref="compound">BossCountdownText</ref> for a concrete example of how to react to the event. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="19">
+        <label>RoundManager.Events.BossCountdownBegunEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_boss_countdown_begun_event"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>RoundEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_round_event"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="21">
+        <label>RoundManager.Events.BossCountdownBegunEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_boss_countdown_begun_event"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>RoundEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_round_event"/>
+      </node>
+    </collaborationgraph>
+    <location file="Round System/Scripts/_Round System/Event System/Individual Events/Boss Events/BossCountdownBegunEvent.cs" line="11" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Boss Events/BossCountdownBegunEvent.cs" bodystart="10" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_round_manager_1_1_events_1_1_boss_countdown_begun_event_1aa0a3a129d8e8b3e5782e8521de061a74" prot="private" virt="non-virtual"><scope>RoundManager::Events::BossCountdownBegunEvent</scope><name>_currentRound</name></member>
+      <member refid="class_round_manager_1_1_events_1_1_boss_countdown_begun_event_1aa3f4c1d1f3b59180d5dec019c72ab4c3" prot="public" virt="non-virtual"><scope>RoundManager::Events::BossCountdownBegunEvent</scope><name>BossCountdownBegunEvent</name></member>
+      <member refid="class_round_manager_1_1_events_1_1_boss_countdown_begun_event_1ab222f79d5e16d452c0da7b5b8ba19a79" prot="public" virt="non-virtual"><scope>RoundManager::Events::BossCountdownBegunEvent</scope><name>CurrentRound</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

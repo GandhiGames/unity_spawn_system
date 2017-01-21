@@ -1,0 +1,41 @@
+\hypertarget{namespace_round_manager_1_1_events}{}\section{Round\+Manager.\+Events Namespace Reference}
+\label{namespace_round_manager_1_1_events}\index{Round\+Manager.\+Events@{Round\+Manager.\+Events}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_round_manager_1_1_events_1_1_boss_countdown_begun_event}{Boss\+Countdown\+Begun\+Event}
+\begin{DoxyCompactList}\small\item\em Raised when the boss countdown begins. See \hyperlink{class_round_manager_1_1_boss_countdown_begun}{Boss\+Countdown\+Begun} template and \hyperlink{class_round_manager_1_1_boss_countdown_text}{Boss\+Countdown\+Text} for a concrete example of how to react to the event. \end{DoxyCompactList}\item 
+class \hyperlink{class_round_manager_1_1_events_1_1_boss_killed_event}{Boss\+Killed\+Event}
+\begin{DoxyCompactList}\small\item\em Raised when the round boss is killed. See \hyperlink{class_round_manager_1_1_boss_killed}{Boss\+Killed} template for a template of how to react to the event. \end{DoxyCompactList}\item 
+class \hyperlink{class_round_manager_1_1_events_1_1_boss_spawned_event}{Boss\+Spawned\+Event}
+\begin{DoxyCompactList}\small\item\em Raised when a boss is spawned. See \hyperlink{class_round_manager_1_1_boss_spawned}{Boss\+Spawned} for a template of how to react to this event. The event is currently raised in \hyperlink{class_round_manager_1_1_enemy_spawner}{Enemy\+Spawner}. If you want to react to this event, and you are using a custom boss spawner then ensure that the event is raised when a boss is spawned. \end{DoxyCompactList}\item 
+class \hyperlink{class_round_manager_1_1_events_1_1_boss_spawn_request_event}{Boss\+Spawn\+Request\+Event}
+\begin{DoxyCompactList}\small\item\em Raised when the a boss should be spawned. See \hyperlink{class_round_manager_1_1_boss_spawn_request}{Boss\+Spawn\+Request} template and \hyperlink{class_round_manager_1_1_enemy_spawner}{Enemy\+Spawner} for a concrete example of how to react to the event. \end{DoxyCompactList}\item 
+class \hyperlink{class_round_manager_1_1_events_1_1_checkpoint_end_event}{Checkpoint\+End\+Event}
+\begin{DoxyCompactList}\small\item\em Raised when the a checkpoint ends. See Check\+Point\+End template for an example of how to react to the event. \end{DoxyCompactList}\item 
+class \hyperlink{class_round_manager_1_1_events_1_1_checkpoint_start_event}{Checkpoint\+Start\+Event}
+\begin{DoxyCompactList}\small\item\em Raised when the a checkpoint starts. See Check\+Point\+Start template for an example of how to react to the event. \end{DoxyCompactList}\item 
+class \hyperlink{class_round_manager_1_1_events_1_1_destroy_current_enemies_request_event}{Destroy\+Current\+Enemies\+Request\+Event}
+\begin{DoxyCompactList}\small\item\em Raised to signify that all currently spawned enemies should be destroyed. See \hyperlink{class_round_manager_1_1_destroy_current_enemies_request}{Destroy\+Current\+Enemies\+Request} template and \hyperlink{class_round_manager_1_1_enemy_spawner}{Enemy\+Spawner} for a concrete example of how to react to this event. \end{DoxyCompactList}\item 
+class \hyperlink{class_round_manager_1_1_events_1_1_enemy_spawn_request_event}{Enemy\+Spawn\+Request\+Event}
+\begin{DoxyCompactList}\small\item\em Raised when the an enemy should be spawned. See \hyperlink{class_round_manager_1_1_enemy_spawn_request}{Enemy\+Spawn\+Request} template and \hyperlink{class_round_manager_1_1_enemy_spawner}{Enemy\+Spawner} for a concrete example of how to react to the event. \end{DoxyCompactList}\item 
+class \hyperlink{class_round_manager_1_1_events_1_1_finished_rounds_event}{Finished\+Rounds\+Event}
+\begin{DoxyCompactList}\small\item\em Raised to signify that all rounds have finished. See \hyperlink{class_round_manager_1_1_finished_rounds}{Finished\+Rounds} for a template of how to react to this event and \hyperlink{class_round_manager_1_1_rounds_finished_text}{Rounds\+Finished\+Text} for a concrete example. \end{DoxyCompactList}\item 
+class \hyperlink{class_round_manager_1_1_events_1_1_first_round_event}{First\+Round\+Event}
+\begin{DoxyCompactList}\small\item\em Raised to signify that the first round has started. See \hyperlink{class_round_manager_1_1_first_round}{First\+Round} for a template of how to react to this event. \end{DoxyCompactList}\item 
+class \hyperlink{class_round_manager_1_1_events_1_1_last_round_event}{Last\+Round\+Event}
+\begin{DoxyCompactList}\small\item\em Raised to signify that the last round has started. See \hyperlink{class_round_manager_1_1_last_round}{Last\+Round} for a template of how to react to this event. \end{DoxyCompactList}\item 
+class \hyperlink{class_round_manager_1_1_events_1_1_object_spawn_request_event}{Object\+Spawn\+Request\+Event}
+\begin{DoxyCompactList}\small\item\em Raised when the an object should be spawned. See \hyperlink{class_round_manager_1_1_object_spawn_request}{Object\+Spawn\+Request} template and \hyperlink{class_round_manager_1_1_object_spawner}{Object\+Spawner} for a concrete example of how to react to the event. \end{DoxyCompactList}\item 
+class \hyperlink{class_round_manager_1_1_events_1_1_preperation_end_event}{Preperation\+End\+Event}
+\begin{DoxyCompactList}\small\item\em Raised to signify that the current rounds preperation period has finished. See \hyperlink{class_round_manager_1_1_preperation_end}{Preperation\+End} for a template of how to react to this event. \end{DoxyCompactList}\item 
+class \hyperlink{class_round_manager_1_1_events_1_1_preperation_start_event}{Preperation\+Start\+Event}
+\begin{DoxyCompactList}\small\item\em Raised to signify that the current rounds preperation period has started. See \hyperlink{class_round_manager_1_1_preperation_start}{Preperation\+Start} for a template of how to react to this event. \end{DoxyCompactList}\item 
+class \hyperlink{class_round_manager_1_1_events_1_1_round_end_event}{Round\+End\+Event}
+\begin{DoxyCompactList}\small\item\em Raised everytime a round ends. See \hyperlink{class_round_manager_1_1_round_end}{Round\+End} for a template of how to react to this event and \hyperlink{class_round_manager_1_1_audio_on_round_end}{Audio\+On\+Round\+End} for a concrete example. \end{DoxyCompactList}\item 
+class \hyperlink{class_round_manager_1_1_events_1_1_round_event}{Round\+Event}
+\begin{DoxyCompactList}\small\item\em Base Event class. All events should derive from this class. \end{DoxyCompactList}\item 
+class \hyperlink{class_round_manager_1_1_events_1_1_round_events}{Round\+Events}
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_round_manager_1_1_round}{Round} events. \end{DoxyCompactList}\item 
+class \hyperlink{class_round_manager_1_1_events_1_1_round_start_event}{Round\+Start\+Event}
+\begin{DoxyCompactList}\small\item\em Raised everytime a round starts. See \hyperlink{class_round_manager_1_1_round_start}{Round\+Start} for a template of how to react to this event and \hyperlink{class_round_manager_1_1_audio_on_round_start}{Audio\+On\+Round\+Start} for a concrete example. \end{DoxyCompactList}\end{DoxyCompactItemize}

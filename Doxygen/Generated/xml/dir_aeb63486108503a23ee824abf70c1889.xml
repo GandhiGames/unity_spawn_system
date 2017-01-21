@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="dir_aeb63486108503a23ee824abf70c1889" kind="dir">
+    <compoundname>Round System/Scripts/_Round System/Event System/Individual Events/Round Events</compoundname>
+    <innerfile refid="_finished_rounds_event_8cs">FinishedRoundsEvent.cs</innerfile>
+    <innerfile refid="_first_round_event_8cs">FirstRoundEvent.cs</innerfile>
+    <innerfile refid="_last_round_event_8cs">LastRoundEvent.cs</innerfile>
+    <innerfile refid="_round_end_event_8cs">RoundEndEvent.cs</innerfile>
+    <innerfile refid="_round_start_event_8cs">RoundStartEvent.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Round System/Scripts/_Round System/Event System/Individual Events/Round Events/"/>
+  </compounddef>
+</doxygen>

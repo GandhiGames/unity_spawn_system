@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_round_manager_1_1_checkpoint_end" kind="class" language="C#" prot="public">
+    <compoundname>RoundManager::CheckpointEnd</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_round_manager_1_1_checkpoint_end_1a59bd06f3e590b3594dd3b3028822c7b6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.CheckpointEnd.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/_Templates/Checkpoint Events/CheckpointEnd.cs" line="14" column="1" bodyfile="Round System/Scripts/_Round System/Event System/_Templates/Checkpoint Events/CheckpointEnd.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_round_manager_1_1_checkpoint_end_1a0eb678756153a6033e1bfc5b5dd97e43" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.CheckpointEnd.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/_Templates/Checkpoint Events/CheckpointEnd.cs" line="19" column="1" bodyfile="Round System/Scripts/_Round System/Event System/_Templates/Checkpoint Events/CheckpointEnd.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_round_manager_1_1_checkpoint_end_1acd74137784d3b7e6bee8db735abac53d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RoundManager.CheckpointEnd.OnCheckpointEnd</definition>
+        <argsstring>(CheckpointEndEvent e)</argsstring>
+        <name>OnCheckpointEnd</name>
+        <param>
+          <type><ref refid="class_round_manager_1_1_events_1_1_checkpoint_end_event" kindref="compound">CheckpointEndEvent</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>React to <ref refid="class_round_manager_1_1_events_1_1_checkpoint_end_event" kindref="compound">CheckpointEndEvent</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Event.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/_Templates/Checkpoint Events/CheckpointEnd.cs" line="28" column="1" bodyfile="Round System/Scripts/_Round System/Event System/_Templates/Checkpoint Events/CheckpointEnd.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Template class. Use this as a template to react to a <ref refid="class_round_manager_1_1_events_1_1_checkpoint_end_event" kindref="compound">CheckpointEndEvent</ref>. This event is raised whenever a checkpoint finishes. Place your logic in the <ref refid="class_round_manager_1_1_checkpoint_end_1acd74137784d3b7e6bee8db735abac53d" kindref="member">OnCheckpointEnd</ref> function. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="55">
+        <label>RoundManager.CheckpointEnd</label>
+        <link refid="class_round_manager_1_1_checkpoint_end"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="57">
+        <label>RoundManager.CheckpointEnd</label>
+        <link refid="class_round_manager_1_1_checkpoint_end"/>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Round System/Scripts/_Round System/Event System/_Templates/Checkpoint Events/CheckpointEnd.cs" line="13" column="1" bodyfile="Round System/Scripts/_Round System/Event System/_Templates/Checkpoint Events/CheckpointEnd.cs" bodystart="12" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_round_manager_1_1_checkpoint_end_1acd74137784d3b7e6bee8db735abac53d" prot="public" virt="non-virtual"><scope>RoundManager::CheckpointEnd</scope><name>OnCheckpointEnd</name></member>
+      <member refid="class_round_manager_1_1_checkpoint_end_1a0eb678756153a6033e1bfc5b5dd97e43" prot="private" virt="non-virtual"><scope>RoundManager::CheckpointEnd</scope><name>OnDisable</name></member>
+      <member refid="class_round_manager_1_1_checkpoint_end_1a59bd06f3e590b3594dd3b3028822c7b6" prot="private" virt="non-virtual"><scope>RoundManager::CheckpointEnd</scope><name>OnEnable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_round_manager_1_1_events_1_1_finished_rounds_event" kind="class" language="C#" prot="public">
+    <compoundname>RoundManager::Events::FinishedRoundsEvent</compoundname>
+    <basecompoundref refid="class_round_manager_1_1_events_1_1_round_event" prot="public" virt="non-virtual">RoundManager.Events.RoundEvent</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_round_manager_1_1_events_1_1_finished_rounds_event_1a11b7aebe40c38374eb8afeb18ee0e95b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_round_manager_1_1_round" kindref="compound">Round</ref></type>
+        <definition>Round RoundManager.Events.FinishedRoundsEvent._lastRound</definition>
+        <argsstring></argsstring>
+        <name>_lastRound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/Individual Events/Round Events/FinishedRoundsEvent.cs" line="13" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Round Events/FinishedRoundsEvent.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_round_manager_1_1_events_1_1_finished_rounds_event_1ad2db13aeab97e348d2c4b3a3c152cd32" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_round_manager_1_1_round" kindref="compound">Round</ref></type>
+        <definition>Round RoundManager.Events.FinishedRoundsEvent.LastRound</definition>
+        <argsstring></argsstring>
+        <name>LastRound</name>
+        <briefdescription>
+<para>Returns the last round. </para>        </briefdescription>
+        <detaileddescription>
+<para>The last round.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/Individual Events/Round Events/FinishedRoundsEvent.cs" line="18" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Round Events/FinishedRoundsEvent.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_round_manager_1_1_events_1_1_finished_rounds_event_1a2f3c3de105f86f05a40afd934f4356ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RoundManager.Events.FinishedRoundsEvent.FinishedRoundsEvent</definition>
+        <argsstring>(Round currentRound)</argsstring>
+        <name>FinishedRoundsEvent</name>
+        <param>
+          <type><ref refid="class_round_manager_1_1_round" kindref="compound">Round</ref></type>
+          <declname>currentRound</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Round System/Scripts/_Round System/Event System/Individual Events/Round Events/FinishedRoundsEvent.cs" line="20" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Round Events/FinishedRoundsEvent.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Raised to signify that all rounds have finished. See <ref refid="class_round_manager_1_1_finished_rounds" kindref="compound">FinishedRounds</ref> for a template of how to react to this event and <ref refid="class_round_manager_1_1_rounds_finished_text" kindref="compound">RoundsFinishedText</ref> for a concrete example. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="117">
+        <label>RoundManager.Events.FinishedRoundsEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_finished_rounds_event"/>
+        <childnode refid="118" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="118">
+        <label>RoundEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_round_event"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="119">
+        <label>RoundManager.Events.FinishedRoundsEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_finished_rounds_event"/>
+        <childnode refid="120" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="120">
+        <label>RoundEvent</label>
+        <link refid="class_round_manager_1_1_events_1_1_round_event"/>
+      </node>
+    </collaborationgraph>
+    <location file="Round System/Scripts/_Round System/Event System/Individual Events/Round Events/FinishedRoundsEvent.cs" line="12" column="1" bodyfile="Round System/Scripts/_Round System/Event System/Individual Events/Round Events/FinishedRoundsEvent.cs" bodystart="11" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_round_manager_1_1_events_1_1_finished_rounds_event_1a11b7aebe40c38374eb8afeb18ee0e95b" prot="private" virt="non-virtual"><scope>RoundManager::Events::FinishedRoundsEvent</scope><name>_lastRound</name></member>
+      <member refid="class_round_manager_1_1_events_1_1_finished_rounds_event_1a2f3c3de105f86f05a40afd934f4356ef" prot="public" virt="non-virtual"><scope>RoundManager::Events::FinishedRoundsEvent</scope><name>FinishedRoundsEvent</name></member>
+      <member refid="class_round_manager_1_1_events_1_1_finished_rounds_event_1ad2db13aeab97e348d2c4b3a3c152cd32" prot="public" virt="non-virtual"><scope>RoundManager::Events::FinishedRoundsEvent</scope><name>LastRound</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="dir_334c3790104d1f4791329e26283760ab" kind="dir">
+    <compoundname>Round System/Scripts/_Round System/Event System/_Templates/Checkpoint Events</compoundname>
+    <innerfile refid="_checkpoint_end_8cs">CheckpointEnd.cs</innerfile>
+    <innerfile refid="_checkpoint_start_8cs">CheckpointStart.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Round System/Scripts/_Round System/Event System/_Templates/Checkpoint Events/"/>
+  </compounddef>
+</doxygen>

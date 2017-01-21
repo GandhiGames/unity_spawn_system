@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1d171f3bb7b1c489f840f5a280821faa
+labels:
+- Enemy
+- Health
+timeCreated: 1436257386
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
